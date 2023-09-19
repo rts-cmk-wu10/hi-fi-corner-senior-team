@@ -1,0 +1,33 @@
+.branch__body {
+    background-image: url(/img/branchBackGround.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+.flex__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: normal;
+    padding: 200px 100px 0 100px;
+    height: 600px;
+  }
+  
+  .flex__items:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+  
+  .flex__items:nth-child(2) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
