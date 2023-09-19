@@ -5,84 +5,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>single-product-view</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="singleProductPage.css">
 </head>
 
 <body>
     <div class="singleProduct__container">
-
-    <div>
-        <img src="#" alt="saleBanner" class="saleBanner">
-        <div class="productImage__container">
-            <img src="#" alt="productImage" class="productImage">
-            <h2>MORE VIEWS</h2>
-            <img src="" alt="" class="thumbnail">
-            <img src="" alt="" class="thumbnail">
+        <div class="saleBanner">
+            <p>
+                edinburgh store relocation
+                <span class="bannerText">everything must go. contact us for details</span>
+                <span class="bannerText--large">sale</span>
+            </p>
         </div>
-        <div>
-            <h2>
-                <script> ${ manufacturer.model }</script>
-            </h2>
-            <p class="otherProducts">See other ${manufacturer} products</p>
-            <p class="currentPrice"><span class="previousPrice"></span></p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed quas laudantium obcaecati quo alias
-                deleniti inventore ut consequuntur dolores! Recusandae ratione eos qui dolorum nihil id at error
-                quisquam quibusdam!</p>
+
+        <div class="singleProduct__gridContainer">
+
+
+            <div class="container__productImage">
+                <img src="#" alt="productImage" class="productImage">
+                <h2 class="productHeader">MORE VIEWS</h2>
+                <img src="#" alt="" class="thumbnail">
+                <img src="#" alt="" class="thumbnail">
+            </div>
+
+            <div class="container__productInfo">
+                <h2 class="productHeader">
+                    MARANTZ PM6006
+                    <script> ${ manufacturer.model }</script>
+                </h2>
+                <div class="productPrize">
+                    <p class="otherProducts__p">See other ${manufacturer} products</p>
+                    <p class="currentPrize"><span class="previousPrize">£469.00</span>£429.00</p>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed quas laudantium obcaecati quo alias
+                    deleniti inventore ut consequuntur dolores! Recusandae ratione eos qui dolorum nihil id at error
+                    quisquam quibusdam!</p>
+            </div>
+            <div class="buttonFlexbox">
+                <button>Ask a question</button>
+                <button>Part exchange</button>
+                <button>pay by finance</button>
+                <button>Seen a better price?</button>
+            </div>
+
+            <div class=productVersion__container>
+                <div class="productVersion">
+                    <p>finish <span class="productVersion__p--red">* *Required Fields</span></p>
+                    <div class="productVersion__radioButtons">
+                        <div radioButtons>
+                            <input type="radio" name="productVersion__option"><label for="">Black</label>
+                            <input type="radio" name="productVersion__option"><label for="">Silver</label>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="addToCart">
+                    <div class="addToCart__Qty">
+                        <label for="">Qty</label>
+                        <input type="number">
+                        <button name="addToCart">add to cart</button>
+                    </div>
+                    <span class="spanText">-or-</span>
+                    <button name="payPal" class="payPal__button">paypal chechout</button>
+                </div>
+            </div>
+
+            <div class="productInfo__additional">
+                <h2 class="productHeader">additional information</h2>
+                <p>manufacturer <span>${manufacturer}</span></p>
+                <p>manufacturer link <span>${manufacturer + model}</span></p>
+                <p>free warranty <span>3 years</span></p>
+                <p>delivery charge <span>Free</span></p>
+                <p>delivery timme <span>1-5 Working Days</span></p>
+                <p>card surcharges <span>No</span></p>
+            </div>
+
+            <section class="product__description">
+                <h2 class="productHeader">Description</h2>
+                <p>Power Output (8 / 4 Ohm RMS) <span>45 W / 60 W 10Hz</span></p>
+                <p>Frequency Response <span>70 kHz</span></p>
+                <p>Total Harmonic Distortion <span>0.08 %</span></p>
+                <p>Damping Factor <span>100</span></p>
+                <p>Input Sensitivity: MM <span>2.2mV / 47 kOhm</span></p>
+                <p>Input Sensitivity: MC</p>
+                <p>SIgnal to Noise Ratio: MM / MC <span>83dB</span></p>
+                <p>Input Sensitivity: High level <span>200mV / 20 kOhm</span></p>
+                <p>Input Sensitivity</p>
+                <p>Signal to Noise Ratio: High Level</p>
+                <p>Input Sensitivity: Power Amp Direct IN</p>
+                <p>Signal to Noise Ratio: Power Amp Direct IN</p>
+
+            </section>
+
         </div>
-        <div class="buttonFlexbox">
-            <p>Ask a question</p>
-            <p>Part exchange</p>
-            <p>pay by finance</p>
-            <p>Seen a better price?</p>
+
+
+
+        <div class="contactBanner">
+            <p> Call us about this product </p>
         </div>
+
     </div>
-
-    <div>
-       <p>finish* <span>*Required Fields</span></p> 
-       <input type="radio"><label for="">Black</label>
-       <input type="radio"><label for="">Silver</label>
-    </div>
-
-    <div class="addToCart">
-       <label for="">Qty</label> 
-       <button name="addToCart">add to cart</button>
-       <span>-or-</span>
-       <button name="payPal"></button>
-    </div>
-
-    <div>
-        <h2>additional information</h2>
-        <p>manufacturer <span>${manufacturer}</span></p>
-        <p>manufacturer link <span>${manufacturer + model}</span></p>
-        <p>free warranty <span>3 years</span></p>
-        <p>delivery charge <span>Free</span></p>
-        <p>delivery timme <span>1-5 Working Days</span></p>
-        <p>card surcharges <span>No</span></p>
-    </div>
-
-    <section class="product__description">
-        <h2>Description</h2>
-        <p>Power Output (8 / 4 Ohm RMS) <span>45 W / 60 W 10Hz</span></p>
-        <p>Frequency Response <span>70 kHz</span></p>
-        <p>Total Harmonic Distortion <span>0.08 %</span></p>
-        <p>Damping Factor <span>100</span></p>
-        <p>Input Sensitivity: MM <span>2.2mV / 47 kOhm</span></p>
-        <p>Input Sensitivity: MC</p>
-        <p>SIgnal to Noise Ratio: MM / MC <span>83dB</span></p>
-        <p>Input Sensitivity: High level <span>200mV / 20 kOhm</span></p>
-        <p>Input Sensitivity</p>
-        <p>Signal to Noise Ratio: High Level</p>
-        <p>Input Sensitivity: Power Amp Direct IN</p>
-        <p>Signal to Noise Ratio: Power Amp Direct IN</p>
-
-    </section>
-
-
-    <div class="contactBanner">
-       <p> Call us about this product </p>
-    </div>
-
-</div>
 
 
 

@@ -1,0 +1,148 @@
+.saleBanner{
+    width: 100%;
+    height: 20vh;
+    background-image: url("/img/speakerBanner.webp");
+    background-repeat: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10vh 10vh;
+}
+
+.productImage{
+    border: 3px solid gray;
+}
+
+
+.bannerText--large{
+    grid-column: 2;
+}
+
+
+
+.singleProduct__gridContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 40px;
+
+}
+
+.container__productInfo{
+    grid-column: 2;
+}
+
+.container__productImage{
+    grid-column: 1;
+}
+
+.buttonFlexbox{
+    grid-column: 2;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.productHeader{
+    color:  rgba(163, 145, 97, 1);
+    text-transform: uppercase;
+}
+
+.otherProducts__p{
+    color:  rgba(163, 145, 97, 1);
+   
+}
+
+.productPrize{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem;
+}
+
+.currentPrize{
+    color: rgba(163, 145, 97, 1);
+    font-size:x-large;
+}
+
+.previousPrize{
+    color: #444141;
+    text-decoration: line-through;
+    font-size: medium;
+    margin-right: 20px;
+}
+
+.productVersion__container{
+    border: 2px solid rgb(210, 208, 208);
+    grid-column: 2;
+}
+
+.productVersion{
+    grid-column: 2;
+    
+}
+
+.productVersion__p--red{
+    color: red;
+}
+
+.product__description{
+    grid-column: 2;
+}
+
+.productInfo__additional{
+    grid-column: 1;
+}
+
+.addToCart{
+    grid-column: 2;
+    background-color: rgb(222, 222, 222);
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.addToCart input{
+    width: 20px;
+    padding: 0.5rem;
+    height: fit-content
+}
+
+.addToCart__Qty{
+    display: flex;
+    text-align: center;
+}
+
+.payPal__button{
+    grid-column: 1;
+}
+
+
+.productVersion__radioButtons{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.radioButtons{
+    background-color: rgb(222, 222, 222);
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    background-color:rgba(163, 145, 97, 1);
+    color: white;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    height: 5vh;
+}
+
+.spanText{
+    color:rgba(163, 145, 97, 1);
+    font-size: x-large;
+    grid-column: 1;
+    justify-content: center;
+    
+}
