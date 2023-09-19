@@ -10,7 +10,8 @@
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: normal;
-    align-content: normal;
+    padding: 200px 100px 0 100px;
+    height: 600px;
   }
   
   .flex__items:nth-child(1) {
