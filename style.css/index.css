@@ -1,7 +1,4 @@
-.main__container {
-    /* width: 100%;
-    margin: 0 auto; */
-}
+.main__container {}
 
 .hero {
     height: 600px;
@@ -30,19 +27,146 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+
     height: 180px;
     width: 180px;
     font-size: 36px;
     border: 1px solid white;
-    
 }
 
 .hero__url {
     font-size: 18px;
 }
 
-/* ------------------------------------- */
+/* -------------------statement with waves------------------ */
+
+.statement {
+    height: 340px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.statement__box {
+    position: absolute;
+}
+
+.statement__img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
 
 .statement h2 {
+    padding: 0 10%;
     text-transform: uppercase;
+    font-size: 48px;
+}
+
+/* -----------------socials------------------- */
+
+.socials {
+    height: 350px;
+    /* width: 100%; */
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+
+}
+
+
+
+.socials__item2 {
+    opacity: 0.5;
+}
+
+.socials__item1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.socials__item2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.socials__item3 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.socials__item1,
+.socials__item2,
+.socials__item3 {
+    height: 100%;
+    background-color: rgb(65, 61, 61);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials__box {
+    position: absolute;
+}
+
+.socials__box i {
+    font-size: 130px;
+}
+
+/* --------------------options bottom----------------- */
+
+.options {
+    width: 900px;
+    height: 200px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10%;
+}
+
+.options1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.options2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.options3 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.options1,
+.options2,
+.options3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+
+.options button {
+    padding: 2px 14px 4px 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: black;
+    color: rgba(221, 202, 120, 0.626);
+    border: 1px solid rgba(221, 202, 120, 0.626);
+}
+
+.options__box {
+    
 }
