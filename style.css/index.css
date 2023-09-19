@@ -1,13 +1,16 @@
-
+.main__container {
+    /* width: 100%;
+    margin: 0 auto; */
+}
 
 .hero {
     height: 600px;
     width: 100%;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 10%;
+    /* padding-top: 10%; */
 }
 
 .hero__img {
@@ -20,6 +23,7 @@
 .hero__container {
     width: 180px;
     position: absolute;
+    margin-top: 5%;
 }
 
 .hero__box {
@@ -29,10 +33,16 @@
     height: 180px;
     width: 180px;
     font-size: 36px;
-   border:1px solid white; 
-   padding: 0 0 0 4%;
+    border: 1px solid white;
+    
 }
 
 .hero__url {
     font-size: 18px;
+}
+
+/* ------------------------------------- */
+
+.statement h2 {
+    text-transform: uppercase;
 }
