@@ -1,0 +1,28 @@
+header {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.header__top {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 15px 15px;
+}
+
+.header__navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-top: 1px solid rgba(255, 255, 255, 0.535);
+    height: 3em;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+}
