@@ -20,7 +20,7 @@
 .hero__container {
     width: 180px;
     position: absolute;
-    margin-top: 5%;
+    margin-top: 7%;
 }
 
 .hero__box {
@@ -32,6 +32,7 @@
     width: 180px;
     font-size: 36px;
     border: 1px solid white;
+    padding: 0 0 0 5%;
 }
 
 .hero__url {
@@ -46,6 +47,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .statement__box {
@@ -160,13 +162,10 @@
 
 .options button {
     padding: 2px 14px 4px 14px;
+    margin-bottom: 2%;
     text-transform: uppercase;
     font-weight: bold;
     background-color: black;
     color: rgba(221, 202, 120, 0.626);
     border: 1px solid rgba(221, 202, 120, 0.626);
-}
-
-.options__box {
-    
 }
