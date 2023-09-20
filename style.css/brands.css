@@ -1,0 +1,89 @@
+.branch__body {
+  background-image: url(/img/BrandBackgroundNew.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main__brands__container {
+  margin: 0 auto;
+  width: 1280px;
+}
+
+.flex__Container__Branch1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 500px;
+}
+
+.flex__items__branch1:nth-child(1) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.flex__items__branch1:nth-child(2) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+#top__brands {
+  font-size: 24px;
+}
+
+.flex__Container__Branch2 {
+  display: flex;
+  justify-content: space-between;
+  border: 8px solid white;
+  padding: 0px;
+  background-color: black;
+}
+
+.flex__Container__Branch2 article {
+  width: 48%;
+  padding: 1px;
+}
+
+.flexbox__right {
+  background-image: url("/img/FlexPic.PNG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.brands__page {
+  color: rgba(163, 145, 97, 255);
+}
+
+.shop__link {
+  color: rgba(163, 145, 97, 1);
+  font-weight: bold;
+}
+
+.flex__HIFIContainer {
+  width: 180px;
+  margin-top: 10%;
+}
+
+.flex__HIFIBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 180px;
+  width: 180px;
+  font-size: 36px;
+  border: 1px solid white;
+}
+
+.flex__url {
+  font-size: 18px;
+}
