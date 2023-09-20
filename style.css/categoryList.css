@@ -1,5 +1,22 @@
+
+.shop__categoryContainer{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
 .subCategoryHeader{
     height: 30vh;
     width: 15vw;
     background-color: #d1cece;
+    grid-column: 1;
+}
+
+.selectBar{
+    width: 100%;
+    height: 5vh;
+    background-color: rgb(222, 220, 220);
+    padding: 2rem;
+    text-transform: uppercase;
+    grid-column: 2;
+    grid-row: 1;
 }
