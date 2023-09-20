@@ -280,6 +280,7 @@ p{
     grid-template-columns: 1fr 2fr;
     list-style: none;
     grid-column: 1/2;
+    padding: 0;
     
 }
 
