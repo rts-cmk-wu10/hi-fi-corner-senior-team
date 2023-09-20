@@ -1,136 +1,258 @@
-.saleBanner{
-    width: 100%;
+body{
+    background-color: #000;
+}
+
+button {
+    cursor: pointer;
+
+}
+
+p{
+    margin-right: 1rem;
+}
+
+
+
+.singleProduct__container{
+    margin: 5%;
+    background-color: #fff;
+    padding-bottom: 5%;
+}
+
+
+.saleBanner {
     height: 20vh;
-    background-image: url("/img/speakerBanner.webp");
-    background-repeat: none;
+    background-image: url("/img_singleProduct/speakerBanner.webp");
     text-transform: uppercase;
+    background-position: right center;
     color: white;
-    font-size: 50px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 5fr 1fr 1fr;
     grid-template-rows: 10vh 10vh;
+    padding: 1rem;
 }
 
-.productImage{
-    border: 3px solid gray;
+.saleBanner__p {
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
 }
 
+.banner__span {
+    grid-column: 1;
+    grid-row: 2;
+    font-size: 40px
+}
 
-.bannerText--large{
+.banner__span--larger {
     grid-column: 2;
+    grid-row: 1 / 2;
+    font-size: 120px
 }
 
 
 
-.singleProduct__gridContainer{
+
+
+.container__productImage {
+    grid-column: 1;
+    grid-row: 1/5;
+}
+
+.image__placeholder{
+    position: relative;
+}
+
+.image__placeholderText{
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.productImage {
+  
+    height: 70vh;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+   background: radial-gradient(#eadddd, #fccac6, #fff9f9); 
+   /*background-image: radial-gradient(
+			ellipse at center bottom,
+			rgba(167, 164, 164, 0.4) 0%,
+			transparent 70%,
+			transparent 100%
+		),
+		radial-gradient(
+			ellipse at center top,
+			rgba(255, 255, 255, 0.4) 0%,
+			transparent 70%,
+			transparent 100%
+		),
+		radial-gradient(
+			ellipse at center,
+			#aaa 0%,
+			#2a2a2a 14%,
+			#2a2a2a 15%,
+			#aaa 16%,
+			#2a2a2a 17%,
+			#777777 18%,
+			#aaa 49%,
+			#8a8585 50%,
+			#5e5e5e 53%,
+			#111 56%,
+			#5e5e5e 59%,
+			#3c3b3b 62%,
+			#c8c2c2 64%,
+			#5e5e5e 100%
+		);
+	background-size: 100% 50%, 100% 50%, 100%;
+	background-position: center bottom, center top, center;
+	background-repeat: no-repeat;*/
+}
+
+.productImage::after {
+    height: 600px;
+    width: 100%;
+}
+
+.thumbnail {
+    grid-row: 4;
+}
+
+.thumbnail__text {
+    grid-row: 3;
+}
+
+
+
+
+
+.singleProduct__gridContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 40px;
+    column-gap: 40px;
 
 }
 
-.container__productInfo{
+.container__productInfo {
     grid-column: 2;
 }
 
-.container__productImage{
-    grid-column: 1;
-}
 
-.buttonFlexbox{
+
+.buttonFlexbox {
     grid-column: 2;
     display: flex;
     gap: 0.5rem;
+    margin-right: 1rem ;
 }
 
-.productHeader{
-    color:  rgba(163, 145, 97, 1);
+.productHeader {
+    color: rgba(163, 145, 97, 1);
     text-transform: uppercase;
 }
 
-.otherProducts__p{
-    color:  rgba(163, 145, 97, 1);
-   
+.otherProducts__p {
+    color: rgba(163, 145, 97, 1);
+
 }
 
-.productPrize{
+.productPrize {
     display: flex;
     justify-content: space-between;
     margin: 0.5rem;
 }
 
-.currentPrize{
+.currentPrize {
     color: rgba(163, 145, 97, 1);
-    font-size:x-large;
+    font-size: x-large;
 }
 
-.previousPrize{
+.previousPrize {
     color: #444141;
     text-decoration: line-through;
     font-size: medium;
     margin-right: 20px;
 }
 
-.productVersion__container{
+.productVersion__container {
     border: 2px solid rgb(210, 208, 208);
     grid-column: 2;
+    margin-right: 1rem;
 }
 
-.productVersion{
+.productVersion {
     grid-column: 2;
-    
+
 }
 
-.productVersion__p--red{
+.productVersion__p--red {
     color: red;
+    display: flex;
+    float: right;
+    justify-content: space-between;
 }
 
-.product__description{
+.product__description {
     grid-column: 2;
 }
 
-.productInfo__additional{
+.productInfo__additional {
     grid-column: 1;
 }
 
-.addToCart{
+.addToCart {
     grid-column: 2;
     background-color: rgb(222, 222, 222);
     height: 200px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
-
-.addToCart input{
-    width: 20px;
-    padding: 0.5rem;
-    height: fit-content
-}
-
-.addToCart__Qty{
-    display: flex;
+    grid-template-rows: 1fr 1fr 1fr;
     text-align: center;
 }
 
-.payPal__button{
+.addToCart input {
+    width: 20px;
+    padding: 0.5rem;
+    height: fit-content;
+}
+
+.addToCart__Qty {
+    display: flex;
+    text-align: center;
+    gap: 5px;
+    margin: 10px;
+    align-items: center;
+    color:  rgba(163, 145, 97, 1);
+    font-weight: 800;
+}
+
+.payPalButton{
+    max-width: 200px;
     grid-column: 1;
+    grid-row: 2/3;
 }
 
 
-.productVersion__radioButtons{
+.productVersion__radioButtons {
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .radioButtons{
-    background-color: rgb(222, 222, 222);
     display: flex;
     flex-direction: column;
 }
 
-button{
-    background-color:rgba(163, 145, 97, 1);
+.actionButton {
+    background-color: rgba(163, 145, 97, 1);
     color: white;
     padding: 0.5rem;
     text-transform: uppercase;
@@ -139,10 +261,64 @@ button{
     height: 5vh;
 }
 
-.spanText{
-    color:rgba(163, 145, 97, 1);
+.spanText {
+    color: rgba(163, 145, 97, 1);
     font-size: x-large;
     grid-column: 1;
     justify-content: center;
+
+}
+
+.productInfo__additional {
+    grid-column: 2;
+    margin-right: 2rem;
+}
+
+.additional__ul {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    list-style: none;
+    grid-column: 1/2;
     
 }
+
+.additional__ul p {
+    background-color: rgb(222, 222, 222);
+    padding: 10px;
+    border: 1px solid rgb(195, 195, 195);
+    grid-column: 1;
+    margin: 0%;
+    text-transform: uppercase;
+
+
+}
+
+.additional__ul span {
+    background-color: #fff;
+    border: 3px solid rgb(222, 222, 222);
+ 
+    width: 100%;
+    grid-column: 2;
+    text-transform: none;
+    text-align: center;
+}
+
+
+.product__description {
+    grid-column: 1;
+}
+
+.description__ul{
+    list-style: none;
+}
+
+.contactBanner {
+    text-align: center;
+    background-color: #000;
+    color: rgb(201, 184, 135);
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 500;
+
+}
+
