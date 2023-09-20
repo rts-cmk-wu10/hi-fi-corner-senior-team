@@ -1,14 +1,141 @@
 <!DOCTYPE html>
-<html lang="da">
+<html lang="en">
+
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hi-FI Single Product</title>
-    <link rel="stylesheet" href="style.css/files.css">
+    <title>single-product-view</title>
+    <link rel="stylesheet" href="style.css/singleProductPage.css">
 </head>
+
 <body>
-    <footer class="site__footer"></footer>
-    <script src="/js/footer.js"></script>
-    <script src="search.js"></script>
+    <div class="singleProduct__container">
+        <div class="saleBanner">
+            <p class="saleBanner__p">edinburgh store relocation </p>
+            <span class="banner__span">everything must go. contact us for details</span>
+            <span class="banner__span--larger">sale</span>
+
+        </div>
+
+        <div class="singleProduct__gridContainer">
+
+
+            <div class="container__productImage">
+                <div class="image__placeholder">
+                    <img src="#" alt="productImage" class="productImage">
+                    <p class="image__placeholderText">loading..</p>
+                </div>
+                <h2 class="productHeader thumbnail__text">more views</h2>
+                <img src="#" alt="thumbnailImage" class="thumbnail">
+                <img src="#" alt="thumbnailImage2" class="thumbnail">
+            </div>
+
+            <div class="container__productInfo">
+                <h2 class="productHeader">
+                    marantz pm6006
+                </h2>
+                <div class="productPrize">
+                    <p class="otherProducts__p">See other ${manufacturer} products</p>
+                    <p class="currentPrize"><span class="previousPrize">£469.00</span>£429.00</p>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed quas laudantium obcaecati quo alias
+                    deleniti inventore ut consequuntur dolores! Recusandae ratione eos qui dolorum nihil id at error
+                    quisquam quibusdam!</p>
+            </div>
+            <div class="buttonFlexbox">
+                <button class="actionButton">Ask a question</button>
+                <button class="actionButton">Part exchange</button>
+                <button class="actionButton">pay by finance</button>
+                <button class="actionButton">Seen a better price?</button>
+            </div>
+
+            <div class=productVersion__container>
+                <div class="productVersion">
+                    <p>finish <span class="productVersion__p--red">* *Required Fields</span></p>
+                    <div class="productVersion__radioButtons">
+                        <div radioButtons>
+                            <input type="radio" name="productVersion__option"><label for="">Black</label>
+                            <input type="radio" name="productVersion__option" checked><label for="">Silver</label>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="addToCart">
+                    <div class="addToCart__Qty">
+                        <label for="">Qty</label>
+                        <input type="number" value="1">
+                        <button name="addToCart" class="actionButton">add to cart</button>
+                    </div>
+                    <span class="spanText">-or-</span>
+                    <div class="paypalButton" style="max-width:300px;"></div>
+                </div>
+            </div>
+
+            <section class="productInfo__additional">
+                <h2 class="productHeader">additional information</h2>
+                <ul class="additional__ul">
+                    <li>
+                        <p>manufacturer</p> 
+                    </li>
+                    <li><span> ${manufacturer}</span></li>
+                    <li>
+                        <p>manufacturer link</p>
+                    </li>
+                    <li><span>${manufacturer + model}</span></li>
+                    <li>
+                        <p>free warranty</p> 
+                    </li>
+                    <li><span>3 years</span></li>
+                    <li>
+                        <p>delivery charge</p> 
+                    </li>
+                    <li><span>Free</span></li>
+                    <li>
+                        <p>delivery timme</p> 
+                    </li>
+                    <li><span>1-5 Working Days</span></li>
+                    <li> <p>card surcharges</p> </li>
+                    <li><span>No</span></li>
+                </ul>
+            </section>
+
+            <section class="product__description">
+                <h2 class="productHeader">Description</h2>
+                <ul class="description__ul">
+                    <li>Power Output (8 / 4 Ohm RMS) <span>45 W / 60 W 10Hz</span></li>
+                    <li>Frequency Response <span>70 kHz</span></li>
+                    <li>Total Harmonic Distortion <span>0.08 %</span></li>
+                    <li>Damping Factor <span>100</span></li>
+                    <li>Input Sensitivity: MM <span>2.2mV / 47 kOhm</span></li>
+                    <li>Input Sensitivity: MC</li>
+                    <li>SIgnal to Noise Ratio: MM / MC <span>83dB</span></li>
+                    <li>Input Sensitivity: High level <span>200mV / 20 kOhm</span></li>
+                    <li>Input Sensitivity</li>
+                    <li>Signal to Noise Ratio: High Level</li>
+                    <li>Input Sensitivity: Power Amp Direct IN</li>
+                    <li>Signal to Noise Ratio: Power Amp Direct IN</li>
+                </ul>
+
+            </section>
+
+        </div>
+
+
+
+        <div class="contactBanner">
+            <p> Call us about this product </p>
+        </div>
+
+    </div>
+
+    <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD&disable-funding=card&intent=authorize"
+        defer></script>
+    <script src="paypal.js" defer></script>
 </body>
+
 </html>
