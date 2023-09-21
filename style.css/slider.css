@@ -1,0 +1,91 @@
+/* global stil regel  */
+/* inkl. padding og border  */
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshowContainer {
+  /* max-width: 1000px; */
+  position: relative;
+  margin: auto;
+  width: 100%;
+}
+
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+.slider_image {
+    height: 600px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  /* width: auto; */
+  /* margin-top: -22px; */
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 3%;
+  border-radius: 3px 0 0 3px;
+  font-size: 30px;
+}
+
+.prev {
+  left: 3%;
+  font-size: 30px;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 70px;
+  left: 70px;
+  /* bottom: 8px; */
+  /* width: 100%; */
+  text-align: center;
+  width: 10%;
+  text-align: start;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  /* width: 100%; */
+}
+
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: 0.4}
+  to {opacity: 1}
+}
+
