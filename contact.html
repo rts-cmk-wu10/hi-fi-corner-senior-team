@@ -6,7 +6,7 @@
     <title>Contact Us</title>
     <link rel="stylesheet" href="style.css/files.css">
 </head>
-<body>
+<body class="Contact__us__body">
 
     <header class="header"></header>
     <script src="js/header.js" defer></script>
@@ -16,29 +16,60 @@
         <p>Call or email for more info or to book an appointment.</p>
     </section>
 
-    <section class="parent">
-        <article class="article1"> 
-            <h2>Edinburgh</h2> 
-            <p> 0131 556 7901     sales@hificorner.co.uk </p>
-            <p>2 Joppa Rd, Edinburgh, EH15 2EU</p>
-            <p>Mon - Sat: 10am -5:30pm. Sun closed.</p>
-        </article>
-        <article class="article2"> Google map her </article>
-        <article class="article3"> Google map her </article>
-        <article class="article4"> 
-            <h2>Falkirk</h2>
-            <p>01324 629 011     falkirk@hificorner.co.uk</p>
-            <p>44 Cow Wynd, Falkirk Central Region, FK1 1PU</p>
-            <p>Mon - Sat: 10am -5:30pm. Sat appointment only. Sun closed.</p>
-        </article>
-        </section>
+        <section class="grid__contact">
+            <article class="row">
+              <div class="flex__container__contact">
+                <article class="left__contact__container">            
+                    <h2>Edinburgh</h2> 
+                    <p> 0131 556 7901     sales@hificorner.co.uk </p>
+                    <p>2 Joppa Rd, Edinburgh, EH15 2EU</p>
+                    <p>Mon - Sat: 10am -5:30pm. Sun closed.</p>
+                </article>
+                <article class="right__contact__container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2233.9847011989373!2d-3.1029242876513!3d55.949637076701215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887b9a456988e37%3A0x9ab320c7a137c00!2s2%20Joppa%20Rd.%2C%20Edinburgh%20EH15%202EU%2C%20Storbritannien!5e0!3m2!1sda!2sdk!4v1695295849284!5m2!1sda!2sdk"
+                    width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </article>
+              </div>
+            </article>
+            <article class="row">
+              <div class="flex__container__contact">
+                <article class="left__contact__container">          
+                    <h2>Falkirk</h2>
+                    <p>01324 629 011     falkirk@hificorner.co.uk</p>
+                    <p>44 Cow Wynd, Falkirk Central Region, FK1 1PU</p>
+                    <p>Mon - Sat: 10am -5:30pm. Sat appointment only. Sun closed.</p>
+                </article>
+                <article class="right__contact__container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2231.2172149927856!2d-3.78556938764847!3d55.99759007299846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48887a24df9c1377%3A0xd0bf6627c034e3ac!2s44%20Cow%20Wynd%2C%20Falkirk%20FK1%201PU%2C%20Storbritannien!5e0!3m2!1sda!2sdk!4v1695295921678!5m2!1sda!2sdk"
+                    width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </article>
+              </div>
+            </article>
+          </section>
 
         <section class="message__us">
-            <h2>Or message us here</h2>
+            <h2 class="Message__us__heading">Or message us here</h2>
             <p>Send a message using the contact form below and we’ll get back to you as soon as we can.</p>
 
+            <div class="contact__form">
+                <form action="#" method="post">
+                    <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+                    <input type="text" id="surName" name="surName" placeholder="Surname" required>
+                    <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="+44" required>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                    <textarea id="message" name="message" placeholder="Please, type your message here..." required></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+
         </section>
+
+
+
+
     
+
+
 
     <footer class="site__footer"></footer>
     <script src="/js/footer.js"></script>
