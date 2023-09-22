@@ -22,3 +22,30 @@ navLinks.forEach(link => {
 });
 
 navigateToPage("amplifiers"); 
+
+
+
+/*
+
+const URL = new URLSearchParams(window.location.search)
+
+console.log(URL.get("name"))
+
+
+
+fetch(`http://localhost:5500/http://localhost:5500/`)
+    .then(function (response) {
+        if (response.status === 200) {
+            return response.json()
+        } else {
+            document.body.innerText += "Ups, noget gik galt. Prøv igen senere"
+        }
+    })
+
+    .then(function (data) {
+        console.log(data)
+        const DIV = document.querySelector(".pokemon")
+        DIV.innerHTML = ``
+    })
+
+*/ 
