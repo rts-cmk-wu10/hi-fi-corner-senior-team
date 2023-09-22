@@ -14,7 +14,7 @@
             "delivery_charge":  "Free",
             "delivery_time": "1-5 Working Days",
             "card-surcharges": "no",
-            "img": "http://localhost:5500/img_db/cd_afspillere/creek_classic_cd.jpg"
+            "img": "img_db/cd_afspillere/creek_classic_cd.jpg"
         },
         {
             "id": 2,
