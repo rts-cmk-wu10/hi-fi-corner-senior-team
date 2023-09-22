@@ -41,6 +41,8 @@
 /* Added margin-bottom to create space between elements */
 .centered__content h2 {
     margin-bottom: 20px;
+    font-size: 3rem;
+
 }
 .centered__content h3 {
     margin-bottom: 20px; 
@@ -85,6 +87,11 @@
     padding: 20px;
 }
 
+.hear__the__difference h2 {
+    font-size: 3rem;
+}
+
+
 
 /* Styling of third flexbox */
 .Services {
@@ -94,6 +101,7 @@
 .Services h2 {
     margin-top: 40px;
     margin-bottom: 60px;
+    font-size: 3rem;
 }
 
 .Flex__Container {
@@ -145,6 +153,7 @@
 /* Added margin-bottom to create space between elements */
 .tailored__content h2 {
     margin-bottom: 20px;
+    font-size: 3rem;
 }
 .tailored__content h3 {
     margin-bottom: 20px; 
