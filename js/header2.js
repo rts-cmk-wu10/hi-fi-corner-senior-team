@@ -1,10 +1,17 @@
-const HEADER = document.querySelector(".header")
+const HEADER = document.querySelector(".header__search")
 HEADER.innerHTML = `
 <section class="header__top">
+
+<form action="#" class="search_form" autocomplete="off">
+<input type="search" list="products" name="product" class="search_form--input">
+<datalist id="products"></datalist>
+<button type="submit" class="submit">Søg</button>
+</form>
+
+<i class="fa-solid fa-user"></i> account
+<i class="fa-solid fa-cart-shopping"></i> cart
 <i class="fa-solid fa-location-dot"></i>
-<i class="fa-solid fa-phone"></i>
-<i class="fa-regular fa-envelope"></i>
-<button class="subscribe__btn"><i class="fa-regular fa-envelope"></i>Subscribe</button>
+
 </section>
 
 <section class="header__navbar">
