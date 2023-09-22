@@ -1,0 +1,39 @@
+.privacy__body {
+    background-color: white;
+    color: black;
+}
+
+.privacy__section__heading {
+    background-image: url(/img/gradient-color-line-wave-background_483537-3986.avif); 
+    text-align: center;
+    height: 200px;
+    color: white;
+}
+
+.privacy__heading {
+    padding-top: 60px;
+    font-size: 3rem;
+}
+
+.privacy__main__body{
+    text-align: center;
+}
+
+.cursive__paragh {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+ul {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.privacy__ul__no-decoration {
+    list-style: none;
+    padding: 0;
+}
+
+.privacy__ul__info {
+    list-style: none;
+    padding: 0;
+}
