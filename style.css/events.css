@@ -1,0 +1,27 @@
+.events__body {
+    text-align: center;
+    background-color: white;
+}
+
+.events__header h2 {
+    font-size: 3rem; /* 3rem is equivalent to 48 pixels */
+    margin-bottom: 20px;
+}
+
+.events__header {
+    background-image: url(/img/gradient-color-line-wave-background_483537-3986.avif);
+    margin-bottom: 40px;
+}
+
+
+
+.flex-container {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed for your layout */
+}
+
+.container {
+    flex: 1;
+    padding: 20px; /* Add styling as needed */
+    border: 1px solid #ccc; /* Add borders or other styles as needed */
+}
