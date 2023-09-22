@@ -3,7 +3,7 @@
 }
 
 .abstract__background {
-  background-image: url("./img/AbstractBackgroundContactUs.webp");
+  background-image: url("/img/AbstractBackgroundContactUs.webp");
   background-size: cover;
   display: flex;
   flex-direction: column;
