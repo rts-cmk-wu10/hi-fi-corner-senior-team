@@ -10,18 +10,41 @@
 
 .events__header {
     background-image: url(/img/gradient-color-line-wave-background_483537-3986.avif);
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 
 
-
+/* Styling of the flex box */ 
 .flex-container {
     display: flex;
-    justify-content: space-between; /* Adjust as needed for your layout */
+    justify-content: space-between; 
 }
 
 .container {
     flex: 1;
-    padding: 20px; /* Add styling as needed */
-    border: 1px solid #ccc; /* Add borders or other styles as needed */
+    padding: 20px;
+}
+
+
+
+
+/* Styling of the grid inside the felx box */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.grid-item {
+    padding: 10px;
+    text-align: center;
+}
+
+.grid-item:not(:empty) {
+    border: 1px solid #ddd; /* Add a light grey border to non-empty items */
+}
+
+.grid-item img {
+    max-width: 100%; /* Ensure images don't overflow their containers */
 }
