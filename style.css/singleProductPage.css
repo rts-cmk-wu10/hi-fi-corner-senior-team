@@ -22,7 +22,7 @@ p{
 
 .saleBanner {
     height: 20vh;
-    background-image: url("/img_singleProduct/speakerBanner.webp");
+    background-image: url("/hi-fi-corner-senior-team/img/speakerBanner.webp");
     text-transform: uppercase;
     background-position: right center;
     color: white;
@@ -30,6 +30,7 @@ p{
     grid-template-columns: 5fr 1fr 1fr;
     grid-template-rows: 10vh 10vh;
     padding: 1rem;
+    background-color: #000;
 }
 
 .saleBanner__p {
@@ -153,7 +154,7 @@ p{
     margin-right: 1rem ;
 }
 
-.productHeader {
+.productName {
     color: rgba(163, 145, 97, 1);
     text-transform: uppercase;
 }
@@ -279,6 +280,7 @@ p{
     grid-template-columns: 1fr 2fr;
     list-style: none;
     grid-column: 1/2;
+    padding: 0;
     
 }
 

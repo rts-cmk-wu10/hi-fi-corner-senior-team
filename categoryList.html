@@ -1,15 +1,39 @@
 <!DOCTYPE html>
 <html lang="da">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hi-Fi Category List</title>
-    <link rel="stylesheet" href="style.css/files.css">
+    <title>Hi-Fi-Shop Category List</title>
+    <link rel="stylesheet" href="/hi-fi-corner-senior-team/style.css/categoryList.css">
 </head>
-<body>
-    
 
-    <footer class="site__footer"></footer>
-    <script src="/js/footer.js"></script>
+<body>
+    <header class="subCategoryHeader">
+		<nav role="navigation">
+			<a href="./" class="siteBrand">Home</a>
+			<ul class="shopNavigation">
+				<li class="categoryNav__navItem"><a href="#" data-point="amplifiers">Amplifiers</a></li>
+				<li class="categoryNav__navItem"><a href="#" data-point="speakers">Speakers</a></li>
+				<li class="categoryNav__navItem"><a href="#" data-point="turntables">Turntables</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<header class="subBrandHeader">
+		<nav role="navigation">
+			<h2>Search by brand</h2>
+			<ul class="shopNavigation">
+				<li class="categoryNav__navItem"><a href="#" data-point="marantz">Marantz</a></li>
+				<li class="categoryNav__navItem"><a href="#" data-point="creek">Creek</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main id="shop__categoryContainer">
+
+	</main>
+
+	<script src="/hi-fi-corner-senior-team/js/shop-category-nav.js" defer></script>
 </body>
+
 </html>
