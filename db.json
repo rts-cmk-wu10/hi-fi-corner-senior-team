@@ -1,9 +1,12 @@
+
+
 {
     "products": [
         {
             "id": 1,
             "product": "Cd Player",
             "model": "Creek Classic",
+
             "brand": "Marantz",
             "warranty": "3 years",
             "color": [
@@ -20,7 +23,6 @@
             "id": 2,
             "product": "Cd Player",
             "model": "Creek Destiny",
-            "brand": "Sony",
             "warranty": "4 years",
             "color": [
                 "Charcoal",
@@ -34,6 +36,7 @@
         },
         {
             "id": 3,
+
             "product": "Cd Player",
             "model": "Creek Evo",
             "brand": "Samsung",
@@ -565,6 +568,7 @@
             "product": "Tube Amplifier",
             "model": "JD 502b",
             "brand": "Jolida",
+
             "warranty": "2.5 years",
             "color": [
                 "Silver",
