@@ -4,13 +4,13 @@ HEADER.innerHTML = `
 <i class="fa-solid fa-location-dot"></i>
 <i class="fa-solid fa-phone"></i>
 <i class="fa-regular fa-envelope"></i>
-<button class="subscribe__btn">Subscribe</button>
+<button class="subscribe__btn"><i class="fa-regular fa-envelope"></i>Subscribe</button>
 </section>
 
 <section class="header__navbar">
 <nav>
 <a href="index.html">home</a>
-<a href="#">about us</a>
+<a href="aboutUs.html">about us</a>
 <a href="branch.html">brands</a>
 <a href="#">blog</a>
 <a href="#">events</a>
