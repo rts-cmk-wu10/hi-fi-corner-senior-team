@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html lang="da">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css/index.css" />
     <link rel="stylesheet" href="style.css/footer.css" />
     <link rel="stylesheet" href="style.css/header.css" />
     <link rel="stylesheet" href="style.css/customProperties.css" />
-    <script
-      src="https://kit.fontawesome.com/07e7abd320.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/07e7abd320.js" crossorigin="anonymous"></script>
     <title>Hi-Fi Frontpage</title>
     <link rel="stylesheet" href="style.css/files.css" />
-  </head>
+</head>
 
-  <body>
+<body>
     <header class="header"></header>
 
     <main class="main__container">
@@ -32,9 +30,9 @@
         </section>
 
         <section class="statement">
-            <img src="img/frontpage_waves.jpg" alt="" class="statement__img">
+            <img src="img/frontpage_waves.jpg" alt="Audio waves" class="statement__img">
             <div class="statement__box">
-            <h2>our edinburgh showroom has now moved to stunning new premises on joppa road</h2>
+                <h2>our edinburgh showroom has now moved to stunning new premises on joppa road</h2>
             </div>
         </section>
 
@@ -66,27 +64,30 @@
         </section>
 
         <section class="options">
-            
+
             <section class="options1">
                 <div class="options__box">
-                <button>history</button>
-                <p>established in the late 1960S, our family owned business is based in edinburgh and falkirk, servicing customers across the uk.</p>
+                    <button>history</button>
+                    <p>established in the late 1960S, our family owned business is based in edinburgh and falkirk,
+                        servicing customers across the uk.</p>
                 </div>
             </section>
             <section class="options2">
                 <div class="options__box">
-                <button>news</button>
-                <p>check out our latest news stories for all the up to date hi-fi corner products and launches.</p>
+                    <button>news</button>
+                    <p>check out our latest news stories for all the up to date hi-fi corner products and launches.</p>
                 </div>
             </section>
             <section class="options3">
                 <div class="options__box">
-                <button>shop</button>
-                <p>have a look in our online shop for great products and deals.</p>
+                    <button>shop</button>
+                    <p>have a look in our online shop for great products and deals.</p>
                 </div>
             </section>
 
         </section>
+
+        <section class="test"></section>
 
 
     </main>
@@ -96,5 +97,25 @@
     <script src="js/header.js" defer></script>
     <script src="js/footer.js" defer></script>
     <script src="js/slider.js" defer></script>
-  </body>
+    <script src="js/index.js" defer></script>
+
+    <!-- <script>
+        fetch(`http://localhost:5000/cd_players`)
+            .then(function (response) {
+                return response.json()
+            })
+            .then(function (data) {
+                console.log(data)
+
+                // const test = document.querySelector(".test")
+                // console.log(data.img)
+
+                // test.innerHTML = `
+                // <img scr="${data.img}" class="test__img">
+                // `
+
+            })
+    </script> -->
+</body>
+
 </html>
