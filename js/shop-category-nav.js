@@ -1,5 +1,5 @@
 const contentContainer = document.getElementById("shop__categoryContainer");
-const navLinks = document.querySelectorAll(".categoryNav__navItem a"); 
+const navLinks = document.querySelectorAll(".categoryNav__navItem"); 
 
 
 function navigateToPage(page) {
@@ -20,7 +20,6 @@ navLinks.forEach(link => {
     navigateToPage(page);
   });
 });
-
 navigateToPage("amplifiers"); 
 
 

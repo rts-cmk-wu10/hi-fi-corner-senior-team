@@ -21,7 +21,7 @@ HEADER.innerHTML = `
 <a href="branch.html">brands</a>
 <a href="#">blog</a>
 <a href="events.html">events</a>
-<a href="categoryList.html">shop</a>
+<a href="shopCategory.html">shop</a>
 <a href="contact.html">contact us</a>
 </nav>
 </section>

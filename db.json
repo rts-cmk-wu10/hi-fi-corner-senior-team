@@ -4,16 +4,17 @@
     "products": [
         {
             "id": 1,
-            "product": "Cd Player",
+            "category": "Cd Player",
             "model": "Creek Classic",
 
-            "brand": "Marantz",
+            "brand": "Creek",
             "warranty": "3 years",
             "color": [
                 "Black",
                 "Silver"
             ],
-            "price": "2500kr.",
+            "currentPrice": "2500kr.",
+            "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card-surcharges": "no",
@@ -21,14 +22,16 @@
         },
         {
             "id": 2,
-            "product": "Cd Player",
+            "category": "Cd Player",
             "model": "Creek Destiny",
+            "brand": "Creek",
             "warranty": "4 years",
             "color": [
                 "Charcoal",
                 "Silver"
             ],
-            "price": "2700kr.",
+            "currentPrice": "2700kr.",
+            "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card-surcharges": "no",
@@ -37,15 +40,16 @@
         {
             "id": 3,
 
-            "product": "Cd Player",
+            "category": "Cd Player",
             "model": "Creek Evo",
-            "brand": "Samsung",
+            "brand": "Creek",
             "warranty": "2.5 years",
             "color": [
                 "Silver",
                 "Black"
             ],
-            "price": "1600kr.",
+            "currentPrice": "1600kr.",
+            "previousPrice": "1700kr.",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card-surcharges": "no",
@@ -53,7 +57,7 @@
         },
         {
             "id": 4,
-            "product": "Cd Player",
+            "category": "Cd Player",
             "model": "2010S",
             "brand": "Exposure",
             "warranty": "2.5 years",
@@ -61,7 +65,8 @@
                 "Silver",
                 "Black"
             ],
-            "price": "1600kr.",
+            "currentPrice": "1600kr.",
+            "previousPrice": "1700kr.",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card-surcharges": "no",
@@ -69,15 +74,16 @@
         },
         {
             "id": 5,
-            "product": "Dvd Player",
+            "category": "streamer",
             "model": "Creek Classic",
-            "brand": "Marantz",
+            "brand": "Creek",
             "warranty": "3 years",
             "color": [
                 "Black",
                 "Silver"
             ],
-            "price": "2500kr.",
+            "currentPrice": "2500kr.",
+            "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card-surcharges": "no",
@@ -85,7 +91,7 @@
         },
         {
             "id": 6,
-            "product": "Dvd Player",
+            "category": "streamer",
             "model": "2010S",
             "brand": "Exposure",
             "warranty": "4 years",
@@ -93,7 +99,8 @@
                 "Charcoal",
                 "Silver"
             ],
-            "price": "2700kr.",
+            "currentPrice": "2700kr.",
+            "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card-surcharges": "no",
@@ -101,7 +108,7 @@
         },
         {
             "id": 7,
-            "product": "Dvd Player",
+            "category": "streamer",
             "model": "D200",
             "brand": "Parasound",
             "warranty": "2.5 years",
@@ -109,7 +116,8 @@
                 "Silver",
                 "Black"
             ],
-            "price": "1600kr.",
+            "currentPrice": "1600kr.",
+            "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card-surcharges": "no",
@@ -117,7 +125,7 @@
         },
         {
             "id": 8,
-            "product": "Dvd Player",
+            "category": "streamer",
             "model": "halod3",
             "brand": "Parasound",
             "warranty": "2.5 years",
@@ -125,7 +133,8 @@
                 "Silver",
                 "Black"
             ],
-            "price": "1600kr.",
+            "currentPrice": "1600kr.",
+            "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card-surcharges": "no",
@@ -133,7 +142,7 @@
         },
         {
             "id": 9,
-            "product": "Power Amplifier",
+            "category": "Amplifier",
             "model": "Mahi",
             "brand": "Manley",
             "warranty": "3 years",
@@ -141,7 +150,8 @@
                 "Black",
                 "Silver"
             ],
-            "price": "2500kr.",
+            "currentPrice": "2500kr.",
+            "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card-surcharges": "no",
@@ -149,7 +159,7 @@
         },
         {
             "id": 10,
-            "product": "Power Amplifier",
+            "category": "Amplifier",
             "model": "Neo Classic",
             "brand": "Manley",
             "warranty": "4 years",
@@ -157,7 +167,8 @@
                 "Charcoal",
                 "Silver"
             ],
-            "price": "2700kr.",
+            "currentPrice": "2700kr.",
+            "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card-surcharges": "no",
@@ -165,7 +176,7 @@
         },
         {
             "id": 11,
-            "product": "Power Amplifier",
+            "category": "Amplifier",
             "model": "Snapper",
             "brand": "Manley",
             "warranty": "2.5 years",
@@ -173,7 +184,8 @@
                 "Silver",
                 "Black"
             ],
-            "price": "1600kr.",
+            "currentPrice": "1600kr.",
+            "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card-surcharges": "no",
@@ -181,7 +193,7 @@
         },
         {
             "id": 12,
-            "product": "Power Amplifier",
+            "category": "Amplifier",
             "model": "Haloa 23",
             "brand": "Parasound",
             "warranty": "2.5 years",
@@ -189,7 +201,8 @@
                 "Silver",
                 "Black"
             ],
-            "price": "1600kr.",
+            "currentPrice": "1600kr.",
+            "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card-surcharges": "no",
@@ -197,7 +210,7 @@
         },
         {
             "id": 13,
-            "product": "Pream Plifier",
+            "category": "Pream Plifier",
             "model": "OBH 22 Passive Preamp",
             "brand": "Creek",
             "warranty": "3 years",
@@ -205,7 +218,8 @@
                 "Black",
                 "Silver"
             ],
-            "price": "2500kr.",
+            "currentPrice": "2500kr.",
+            "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card-surcharges": "no",
@@ -213,7 +227,7 @@
         },
         {
             "id": 14,
-            "product": "Pream Plifier",
+            "category": "Pream Plifier",
             "model": "Classic 7100",
             "brand": "Parasound",
             "warranty": "4 years",
@@ -221,7 +235,8 @@
                 "Charcoal",
                 "Silver"
             ],
-            "price": "2700kr.",
+            "currentPrice": "2700kr.",
+            "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card-surcharges": "no",
@@ -229,7 +244,7 @@
         },
         {
             "id": 15,
-            "product": "Pream Plifier",
+            "category": "Pream Plifier",
             "model": "Halo P3",
             "brand": "Parasound",
             "warranty": "2.5 years",
@@ -237,7 +252,8 @@
                 "Silver",
                 "Black"
             ],
-            "price": "1600kr.",
+            "currentPrice": "1600kr.",
+            "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card-surcharges": "no",
@@ -245,7 +261,7 @@
         },
         {
             "id": 16,
-            "product": "Pream Plifier",
+            "category": "Pream Plifier",
             "model": "Prebox",
             "brand": "Project",
             "warranty": "2.5 years",
@@ -253,7 +269,8 @@
                 "Silver",
                 "Black"
             ],
-            "price": "1600kr.",
+            "currentPrice": "1600kr.",
+            "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card-surcharges": "no",
@@ -261,7 +278,7 @@
         },
         {
             "id": 17,
-            "product": "Speaker",
+            "category": "Speaker",
             "model": "Vcs Wall",
             "brand": "Boesendorfer",
             "warranty": "3 years",
@@ -269,7 +286,8 @@
                 "Black",
                 "Silver"
             ],
-            "price": "2500kr.",
+            "currentPrice": "2500kr.",
+            "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card-surcharges": "no",
@@ -277,7 +295,7 @@
         },
         {
             "id": 18,
-            "product": "Speaker",
+            "category": "Speaker",
             "model": "M5",
             "brand": "Epos",
             "warranty": "4 years",
@@ -285,7 +303,8 @@
                 "Charcoal",
                 "Silver"
             ],
-            "price": "2700kr.",
+            "currentPrice": "2700kr.",
+            "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card-surcharges": "no",
@@ -293,7 +312,7 @@
         },
         {
             "id": 19,
-            "product": "Speaker",
+            "category": "Speaker",
             "model": "Hl7es2",
             "brand": "Harbeth",
             "warranty": "2.5 years",
@@ -301,7 +320,8 @@
                 "Silver",
                 "Black"
             ],
-            "price": "1600kr.",
+            "currentPrice": "1600kr.",
+            "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card-surcharges": "no",
@@ -309,7 +329,7 @@
         },
         {
             "id": 20,
-            "product": "Speaker",
+            "category": "Speaker",
             "model": "Monitor30",
             "brand": "Harbeth",
             "warranty": "2.5 years",
@@ -317,7 +337,8 @@
                 "Silver",
                 "Black"
             ],
-            "price": "1600kr.",
+            "currentPrice": "1600kr.",
+            "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card-surcharges": "no",
@@ -325,7 +346,7 @@
         },
         {
             "id": 21,
-            "product": "Speaker",
+            "category": "Speaker",
             "model": "p3es2",
             "brand": "Harbeth",
             "warranty": "2.5 years",
@@ -333,7 +354,8 @@
                 "Silver",
                 "Black"
             ],
-            "price": "1600kr.",
+            "currentPrice": "1600kr.",
+            "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card-surcharges": "no",
@@ -341,7 +363,7 @@
         },
         {
             "id": 22,
-            "product": "Integrated Amplifier",
+            "category": "Integrated Amplifier",
             "model": "A50l",
             "brand": "Creek",
             "warranty": "3 years",
@@ -349,7 +371,8 @@
                 "Black",
                 "Silver"
             ],
-            "price": "2500kr.",
+            "currentPrice": "2500kr.",
+            "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card-surcharges": "no",
@@ -357,7 +380,7 @@
         },
         {
             "id": 23,
-            "product": "Integrated Amplifier",
+            "category": "Integrated Amplifier",
             "model": "Classic 5350SE",
             "brand": "Creek",
             "warranty": "4 years",
@@ -365,7 +388,8 @@
                 "Charcoal",
                 "Silver"
             ],
-            "price": "2700kr.",
+            "currentPrice": "2700kr.",
+            "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card-surcharges": "no",
@@ -373,7 +397,7 @@
         },
         {
             "id": 24,
-            "product": "Integrated Amplifier",
+            "category": "Integrated Amplifier",
             "model": "Destiny Amplifier",
             "brand": "Creek",
             "warranty": "2.5 years",
@@ -381,7 +405,8 @@
                 "Silver",
                 "Black"
             ],
-            "price": "1600kr.",
+            "currentPrice": "1600kr.",
+            "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card-surcharges": "no",
@@ -389,7 +414,7 @@
         },
         {
             "id": 25,
-            "product": "Integrated Amplifier",
+            "category": "Integrated Amplifier",
             "model": "Snapper",
             "brand": "Manley",
             "warranty": "2.5 years",
@@ -397,7 +422,8 @@
                 "Silver",
                 "Black"
             ],
-            "price": "1600kr.",
+            "currentPrice": "1600kr.",
+            "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card-surcharges": "no",
@@ -405,7 +431,7 @@
         },
         {
             "id": 26,
-            "product": "Integrated Amplifier",
+            "category": "Integrated Amplifier",
             "model": "Stingray",
             "brand": "Manley",
             "warranty": "2.5 years",
@@ -413,7 +439,8 @@
                 "Silver",
                 "Black"
             ],
-            "price": "1600kr.",
+            "currentPrice": "1600kr.",
+            "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card-surcharges": "no",
@@ -421,7 +448,7 @@
         },
         {
             "id": 27,
-            "product": "Turntable",
+            "category": "Turntable",
             "model": "Debut 3bl",
             "brand": "Project",
             "warranty": "3 years",
@@ -429,7 +456,8 @@
                 "Black",
                 "Silver"
             ],
-            "price": "2500kr.",
+            "currentPrice": "2500kr.",
+            "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card-surcharges": "no",
@@ -437,7 +465,7 @@
         },
         {
             "id": 28,
-            "product": "Turntable",
+            "category": "Turntable",
             "model": "Debut 3 red 1",
             "brand": "Project",
             "warranty": "4 years",
@@ -445,7 +473,8 @@
                 "Charcoal",
                 "Silver"
             ],
-            "price": "2700kr.",
+            "currentPrice": "2700kr.",
+            "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card-surcharges": "no",
@@ -453,7 +482,7 @@
         },
         {
             "id": 29,
-            "product": "Turntable",
+            "category": "Turntable",
             "model": "Debut 3 yellow",
             "brand": "Project",
             "warranty": "2.5 years",
@@ -461,7 +490,8 @@
                 "Silver",
                 "Black"
             ],
-            "price": "1600kr.",
+            "currentPrice": "1600kr.",
+            "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card-surcharges": "no",
@@ -469,7 +499,7 @@
         },
         {
             "id": 30,
-            "product": "Turntable",
+            "category": "Turntable",
             "model": "Rpm 5",
             "brand": "Project",
             "warranty": "2.5 years",
@@ -477,7 +507,8 @@
                 "Silver",
                 "Black"
             ],
-            "price": "1600kr.",
+            "currentPrice": "1600kr.",
+            "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card-surcharges": "no",
@@ -485,7 +516,7 @@
         },
         {
             "id": 31,
-            "product": "Turntable",
+            "category": "Turntable",
             "model": "Rpm 10",
             "brand": "Project",
             "warranty": "2.5 years",
@@ -493,7 +524,8 @@
                 "Silver",
                 "Black"
             ],
-            "price": "1600kr.",
+            "currentPrice": "1600kr.",
+            "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card-surcharges": "no",
@@ -501,7 +533,7 @@
         },
         {
             "id": 32,
-            "product": "Tube Amplifier",
+            "category": "Tube Amplifier",
             "model": "JD 102b",
             "brand": "Jolida",
             "warranty": "3 years",
@@ -509,7 +541,8 @@
                 "Black",
                 "Silver"
             ],
-            "price": "2500kr.",
+            "currentPrice": "2500kr.",
+            "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card-surcharges": "no",
@@ -517,7 +550,7 @@
         },
         {
             "id": 33,
-            "product": "Tube Amplifier",
+            "category": "Tube Amplifier",
             "model": "JD 202a",
             "brand": "Jolida",
             "warranty": "4 years",
@@ -525,7 +558,8 @@
                 "Charcoal",
                 "Silver"
             ],
-            "price": "2700kr.",
+            "currentPrice": "2700kr.",
+            "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card-surcharges": "no",
@@ -533,7 +567,7 @@
         },
         {
             "id": 34,
-            "product": "Tube Amplifier",
+            "category": "Tube Amplifier",
             "model": "JD 300b",
             "brand": "Jolida",
             "warranty": "2.5 years",
@@ -541,7 +575,8 @@
                 "Silver",
                 "Black"
             ],
-            "price": "1600kr.",
+            "currentPrice": "1600kr.",
+            "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card-surcharges": "no",
@@ -549,7 +584,7 @@
         },
         {
             "id": 35,
-            "product": "Tube Amplifier",
+            "category": "Tube Amplifier",
             "model": "JD 302b",
             "brand": "Jolida",
             "warranty": "2.5 years",
@@ -557,7 +592,8 @@
                 "Silver",
                 "Black"
             ],
-            "price": "1600kr.",
+            "currentPrice": "1600kr.",
+            "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card-surcharges": "no",
@@ -565,7 +601,7 @@
         },
         {
             "id": 36,
-            "product": "Tube Amplifier",
+            "category": "Tube Amplifier",
             "model": "JD 502b",
             "brand": "Jolida",
 
@@ -574,7 +610,8 @@
                 "Silver",
                 "Black"
             ],
-            "price": "1600kr.",
+            "currentPrice": "1600kr.",
+            "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card-surcharges": "no",
@@ -582,3 +619,4 @@
         }
     ]
 }
+

@@ -1,6 +1,4 @@
-
 fetch('http://localhost:3000/products/1')
-
   .then(function (response) {
     return response.json();
   })
@@ -17,37 +15,14 @@ fetch('http://localhost:3000/products/1')
     PRODUCT_NAME.innerHTML = `<h2 class="productName">${data.model}</h2>`
     PRODUCT_OTHERS.innerHTML = `<p>See other ${data.brand} products</p>`
     PREVIOUS_PRICE.innerHTML = `<span>${data.previous_price}</span>`
-    CURRENT_PRICE.innerHTML = `<span>${data.currrent_price}</span>`
 
-   
-    
+    CURRENT_PRICE.innerHTML = `<span>${data.currrent_price}</span>` 
 
   })
+  
+  })
+
   .catch(function (error) {
     console.error(error.message);
     // You can handle the error message here in a more user-friendly way.
   });
-
-
-  /*.then(function (response) {
-    if (response.status === 200) {
-      return response.json();
-    } else {
-      throw new Error("Oops, something went wrong. Please try again later.");
-    }
-  })
-  .then(function (data) {
-    console.log(data);
-    const DIV = document.querySelector(".productName");
-    if (DIV) {
-      DIV.innerHTML = `
-        <h1>Marantz</h1>
-        `;
-    } else {
-      console.error("Element with class 'productName' not found.");
-    }
-  })
-  .catch(function (error) {
-    console.error(error.message);
-    // You can handle the error message here in a more user-friendly way.
-  });  */
