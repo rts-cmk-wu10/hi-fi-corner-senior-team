@@ -13,8 +13,10 @@
                 "Black",
                 "Silver"
             ],
+
             "previous_price": "1700kr",
             "current_price": "2500kr",
+
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card-surcharges": "no",
@@ -584,3 +586,4 @@
         }
     ]
 }
+

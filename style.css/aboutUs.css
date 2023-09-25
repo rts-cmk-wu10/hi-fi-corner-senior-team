@@ -14,6 +14,8 @@
 }
 
 
+
+
 /* Styling of the first flexbox */
 .hand__shake__flexbox {
     display: flex;
@@ -50,6 +52,7 @@
 .centered__content p {
     margin-bottom: 20px; 
 }
+
 
 
 
@@ -93,6 +96,7 @@
 
 
 
+
 /* Styling of third flexbox */
 .Services {
     text-align: center; 
@@ -125,6 +129,9 @@
     height: 200px;
     margin: 5px;
 }
+
+
+
 
 /* Styling of the fourth flex box */
 .tailored__for__you__flexbox {
@@ -203,28 +210,44 @@
     margin-bottom: 50px;
 }
 
-/* Increase the font size and padding for both the input and button */
-input[type="email"],
-button[type="submit"] {
-    font-size: 18px; /* Adjust the font size as needed */
-    padding: 10px; /* Adjust the padding as needed */
-}
+
+
+
 
 /* Styling the subcribe button */
-button[type="submit"] {
+.aboutUs__submit {
     background-color: grey;
     color: white;
     border: none;
     transition: background-color 0.3s;
 }
 
+/* Increase the font size and padding for both the input and button */
+input[type="email"],
+.aboutUs__submit {
+    font-size: 18px; 
+    padding: 10px; 
+}
+
 /* Change button color on hover */
-button[type="submit"]:hover {
+.aboutUs__submit:hover {
     background-color: black;
 }
 
+.email__form__aboutUs {
+    display: flex;
+    align-items: center; 
+}
 
-/* Styling of the round button */
+.email-form input[type="email"] {
+    flex: 1; 
+    margin-right: 10px; 
+}
+
+
+
+
+/* Styling of the round button at the bottom of the page */
 .round__button__container {
     display: flex;
     justify-content: center;

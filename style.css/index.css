@@ -1,8 +1,5 @@
 
-.main__container {}
-
-
-.hero {
+.hero__container {
   height: 600px;
   width: 100%;
 
@@ -19,7 +16,7 @@
   /* opacity: 0.5; */
 }
 
-.hero__container {
+.hero__logo {
     width: 180px;
     position: absolute;
     margin-top: 7%;
@@ -60,6 +57,7 @@
     object-fit: cover;
     height: 100%;
     width: 100%;
+    opacity: 0.5;
 }
 
 .statement h2 {
@@ -70,8 +68,8 @@
 
 /* -----------------socials------------------- */
 
-.socials {
-    height: 350px;
+.socials__container {
+    height: 400px;
     /* width: 100%; */
     
     display: grid;
@@ -81,24 +79,31 @@
 }
 
 
-
-.socials__item2 {
-    opacity: 0.5;
-}
-
 .socials__item1 {
     grid-column: 1/2;
     grid-row: 1/2;
+
+    background-image: url(/img/socials__1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .socials__item2 {
     grid-column: 2/3;
     grid-row: 1/2;
+
+    background-image: url(/img/socials__2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .socials__item3 {
     grid-column: 3/4;
     grid-row: 1/2;
+
+    background-image: url(/img/socials__3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .socials__item1,
@@ -112,12 +117,25 @@
     align-items: center;
 }
 
-.socials__box {
+/* .socials__box {
     position: absolute;
+} */
+
+.socials__facebook {
+    font-size: 10em;
 }
 
-.socials__box i {
-    font-size: 130px;
+.socials__twitter {
+    width: 10em;
+
+    filter: brightness(0) invert(1) ;
+}
+
+.socials__blogger {
+    width: 10em;
+
+    filter: invert(1);
+
 }
 
 /* --------------------options bottom----------------- */
@@ -171,3 +189,5 @@
     color: rgba(221, 202, 120, 0.626);
     border: 1px solid rgba(221, 202, 120, 0.626);
 }
+
+

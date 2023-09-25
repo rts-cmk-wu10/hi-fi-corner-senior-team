@@ -1,0 +1,26 @@
+.refunds__body {
+    background-color: white;
+    color: black;
+}
+
+.refunds__section__heading {
+    background-image: url(/img/gradient-color-line-wave-background_483537-3986.avif); 
+    text-align: center;
+    height: 200px;
+    color: white;
+}
+
+.returns__heading {
+    padding-top: 60px;
+    font-size: 3rem;
+}
+
+.return__section {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.return__section h3 {
+    margin-bottom: 20px;
+}
+

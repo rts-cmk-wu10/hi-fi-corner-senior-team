@@ -1,4 +1,6 @@
+
 fetch('http://localhost:3000/products/1')
+
   .then(function (response) {
     return response.json();
   })

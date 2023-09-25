@@ -1,4 +1,4 @@
-const HEADER = document.querySelector("header")
+const HEADER = document.querySelector(".header")
 HEADER.innerHTML = `
 <section class="header__top">
 <i class="fa-solid fa-location-dot"></i>
@@ -13,7 +13,7 @@ HEADER.innerHTML = `
 <a href="aboutUs.html">about us</a>
 <a href="branch.html">brands</a>
 <a href="#">blog</a>
-<a href="#">events</a>
+<a href="events.html">events</a>
 <a href="categoryList.html">shop</a>
 <a href="contact.html">contact us</a>
 </nav>
