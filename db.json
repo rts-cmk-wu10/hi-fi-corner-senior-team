@@ -74,7 +74,7 @@
         },
         {
             "id": 5,
-            "category": "streamers",
+            "category": "streamer",
             "model": "Creek Classic",
             "brand": "Creek",
             "warranty": "3 years",
@@ -91,7 +91,7 @@
         },
         {
             "id": 6,
-            "category": "streamers",
+            "category": "streamer",
             "model": "2010S",
             "brand": "Exposure",
             "warranty": "4 years",
@@ -108,7 +108,7 @@
         },
         {
             "id": 7,
-            "category": "streamers",
+            "category": "streamer",
             "model": "D200",
             "brand": "Parasound",
             "warranty": "2.5 years",
@@ -125,7 +125,7 @@
         },
         {
             "id": 8,
-            "category": "streamers",
+            "category": "streamer",
             "model": "halod3",
             "brand": "Parasound",
             "warranty": "2.5 years",
