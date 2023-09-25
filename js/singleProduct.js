@@ -1,4 +1,4 @@
-fetch("hi-fi-corner-senior-team/package-lock.json/product-information")
+fetch("/package-lock.json/product-information")
   .then(function (response) {
     if (response.status === 200) {
       return response.json();
