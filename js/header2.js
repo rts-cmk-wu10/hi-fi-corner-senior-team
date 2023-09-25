@@ -20,7 +20,7 @@ HEADER.innerHTML = `
 <a href="aboutUs.html">about us</a>
 <a href="branch.html">brands</a>
 <a href="#">blog</a>
-<a href="#">events</a>
+<a href="events.html">events</a>
 <a href="categoryList.html">shop</a>
 <a href="contact.html">contact us</a>
 </nav>
