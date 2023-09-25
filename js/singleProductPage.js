@@ -15,12 +15,13 @@ fetch('http://localhost:3000/products/1')
     PRODUCT_NAME.innerHTML = `<h2 class="productName">${data.model}</h2>`
     PRODUCT_OTHERS.innerHTML = `<p>See other ${data.brand} products</p>`
     PREVIOUS_PRICE.innerHTML = `<span>${data.previous_price}</span>`
-    CURRENT_PRICE.innerHTML = `<span>${data.currrent_price}</span>`
 
-   
-    
+    CURRENT_PRICE.innerHTML = `<span>${data.currrent_price}</span>` 
 
   })
+  
+  })
+
   .catch(function (error) {
     console.error(error.message);
     // You can handle the error message here in a more user-friendly way.

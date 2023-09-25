@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <header><a href="./" class="siteBrand">Home</a> / <a href="/hi-fi-corner-senior-team/categoryList.html"
+    <header><a href="./" class="siteBrand">Home</a> / <a href="/categoryList.html"
             class="siteBrand">Category</a></header>
     <div class="singleProduct__container">
         <div class="saleBanner">
@@ -25,7 +25,7 @@
 
             <div class="container__productImage">
                 <div class="image__placeholder">
-                    <img src="#" alt="productImage" class="productImage">
+                    <img src="" alt="productImage" class="productImage">
                     <p class="image__placeholderText">loading..</p>
                 </div>
                 <h2 class="productName thumbnail__text">more views</h2>
@@ -34,12 +34,11 @@
             </div>
 
             <article class="container__productInfo">
-                <h2 class="productName">
-                    marantz pm6006
-                </h2>
+                <h2 class="productName"></h2>
+
                 <div class="productPrize">
                     <p class="otherProducts__p">See other ${manufacturer} products</p>
-                    <p class="currentPrize"><span class="previousPrize">£469.00</span>£429.00</p>
+                    <span class="currentPrize">£429.00</span><span class="previousPrize">£469.00</span>
                 </div>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed quas laudantium obcaecati quo alias
                     deleniti inventore ut consequuntur dolores! Recusandae ratione eos qui dolorum nihil id at error
@@ -80,16 +79,16 @@
             </div>
 
             <section class="productInfo__additional">
-                <h2 class="productName">additional information</h2>
+                <h2 class="singleproduct__h1">additional information</h2>
                 <ul class="additional__ul">
                     <li>
                         <p>manufacturer</p>
                     </li>
-                    <li><span> ${manufacturer}</span></li>
+                    <li><span class="additional__brand"></span></li>
                     <li>
                         <p>manufacturer link</p>
                     </li>
-                    <li><span>${manufacturer + model}</span></li>
+                    <li><span class="additional__model"></span></li>
                     <li>
                         <p>free warranty</p>
                     </li>
@@ -110,7 +109,7 @@
             </section>
 
             <section class="product__description">
-                <h2 class="productName">Description</h2>
+                <h2 class="singleproduct__h1">Description</h2>
                 <ul class="description__ul">
                     <li>Power Output (8 / 4 Ohm RMS) <span>45 W / 60 W 10Hz</span></li>
                     <li>Frequency Response <span>70 kHz</span></li>
@@ -130,17 +129,18 @@
 
         </div>
 
-
-
         <div class="contactBanner">
             <p> Call us about this product </p>
         </div>
 
     </div>
 
+    <script src="/js/singleProductPage.js" defer></script>
+
     <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD&disable-funding=card&intent=authorize"
         defer></script>
     <script src="/js/paypal.js" defer></script>
+
     <script src="/js/singleProductPage.js" defer></script>
 
 </body>

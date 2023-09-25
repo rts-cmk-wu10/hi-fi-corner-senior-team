@@ -19,5 +19,6 @@
   "bugs": {
     "url": "https://github.com/rts-cmk-wu10/hi-fi-corner-senior-team/issues"
   },
-  "homepage": "https://github.com/rts-cmk-wu10/hi-fi-corner-senior-team#readme"
+  "homepage": "https://github.com/rts-cmk-wu10/hi-fi-corner-senior-team#readme",
+  "devDependencies": {}
 }

@@ -7,13 +7,16 @@
             "product": "Cd Player",
             "model": "Creek Classic",
 
-            "brand": "Marantz",
+            "brand": "Creek",
             "warranty": "3 years",
             "color": [
                 "Black",
                 "Silver"
             ],
-            "price": "2500kr.",
+
+            "previous_price": "1700kr",
+            "current_price": "2500kr",
+
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card-surcharges": "no",
@@ -23,6 +26,7 @@
             "id": 2,
             "product": "Cd Player",
             "model": "Creek Destiny",
+            "brand": "Creek",
             "warranty": "4 years",
             "color": [
                 "Charcoal",
@@ -39,7 +43,7 @@
 
             "product": "Cd Player",
             "model": "Creek Evo",
-            "brand": "Samsung",
+            "brand": "Creek",
             "warranty": "2.5 years",
             "color": [
                 "Silver",
@@ -71,7 +75,7 @@
             "id": 5,
             "product": "Dvd Player",
             "model": "Creek Classic",
-            "brand": "Marantz",
+            "brand": "Creek",
             "warranty": "3 years",
             "color": [
                 "Black",
@@ -582,3 +586,4 @@
         }
     ]
 }
+
