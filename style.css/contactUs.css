@@ -1,0 +1,136 @@
+.Contact__us__body {
+  background-color: white;
+}
+
+.abstract__background {
+  background-image: url("/img/AbstractBackgroundContactUs.webp");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 50vh;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+/* Styling of the grid with nested flex box */
+.grid__contact {
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 20px;
+  color: black;
+  background-color: rgba(248,248,248,255);
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.flex__container__contact {
+  display: flex;
+  flex: 1;
+  background-color: #ddd; /* Background color for flex containers */
+  color: black;
+  border-radius: 10px;
+  padding: 10px;
+
+}
+
+.left__contact__container,
+.right__contact__container {
+  flex: 1;
+  background-color: #fff; /* Background color for the flexed items */
+  color: black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.left__contact__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+article {
+  margin-bottom: 7px;
+}
+
+.message__us {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.Message__us__heading {
+  margin-bottom: 20px;
+  font-size: 3rem;
+}
+
+/* Style to make text black */
+.parent,
+.message__us {
+  color: black;
+}
+
+/* Style for the form container */
+.contact__form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+/* Style for form input fields */
+#firstName,
+#surName,
+#email,
+#phoneNumber,
+#message {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style for the message textarea */
+#message {
+  resize: vertical;
+  height: 100px;
+}
+
+/* Style for the submit button */
+.contact__submit {
+  background-color: grey;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 60px;
+  cursor: pointer;
+}
+
+/* Style for the submit button on hover */
+.contact__submit:hover {
+  background-color: darkgrey;
+}
+
+/* Style for first name and surname input fields */
+#firstName,
+#surName {
+  width: 48%; /* Adjust the width as needed */
+  display: inline-block;
+  margin-right: 4px; /* Add some spacing between the fields */
+}

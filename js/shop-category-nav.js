@@ -1,10 +1,8 @@
-// Get references to DOM elements
 const contentContainer = document.getElementById("shop__categoryContainer");
-const navLinks = document.querySelectorAll(".categoryNav__navItem a"); // Select the <a> elements inside .categoryNav__navItem
+const navLinks = document.querySelectorAll(".categoryNav__navItem a"); 
 
-// Function to update content based on clicked link
+
 function navigateToPage(page) {
-  // Use Fetch API to load the content of the HTML file from the "categoryPages" folder
   fetch(`categoryPages/${page}.html`)
     .then(response => response.text())
     .then(html => {
@@ -15,14 +13,39 @@ function navigateToPage(page) {
     });
 }
 
-// Attach event listeners to navigation links
 navLinks.forEach(link => {
   link.addEventListener("click", event => {
-    event.preventDefault(); // Prevent default link behavior
-    const page = link.getAttribute("data-point"); // Get the attribute from the link, not the event target
+    event.preventDefault(); 
+    const page = link.getAttribute("data-point"); 
     navigateToPage(page);
   });
 });
 
-// Initialize the default page
-navigateToPage("amplifiers"); // You can set the default page here
+navigateToPage("amplifiers"); 
+
+
+
+/*
+
+const URL = new URLSearchParams(window.location.search)
+
+console.log(URL.get("name"))
+
+
+
+fetch(`http://localhost:5500/http://localhost:5500/`)
+    .then(function (response) {
+        if (response.status === 200) {
+            return response.json()
+        } else {
+            document.body.innerText += "Ups, noget gik galt. Prøv igen senere"
+        }
+    })
+
+    .then(function (data) {
+        console.log(data)
+        const DIV = document.querySelector(".pokemon")
+        DIV.innerHTML = ``
+    })
+
+*/ 

@@ -1,0 +1,271 @@
+.about__us__body {
+    background-color: white;
+    color: black;
+}
+
+.image__container {
+    width: 100%;
+    height: 100%;
+}
+
+.home__cinema {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/* Styling of the first flexbox */
+.hand__shake__flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; /* Removes the default margin */
+    margin: 60px 60px 60px 100px;
+}
+
+.child1 {
+    flex: 1;
+}
+
+.child2 {
+    flex: 1;
+    padding: 30px;
+}
+
+.centered__content {
+    text-align: center; /* Centers the text within child2 */
+}
+
+/* Added margin-bottom to create space between elements */
+.centered__content h2 {
+    margin-bottom: 20px;
+    font-size: 3rem;
+
+}
+.centered__content h3 {
+    margin-bottom: 20px; 
+}
+.centered__content p {
+    margin-bottom: 20px; 
+}
+
+
+
+
+/* Styling of second flexbox */
+.hear__the__difference {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-image: url(/img/gradient-color-line-wave-background_483537-3986.avif); 
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the background image */
+    color: white
+}
+
+.HearTheDifferentBox1 {
+    flex: 1;
+    max-width: 50%;
+    padding: 20px;
+    text-align: center; 
+    margin-top: 80px;
+}
+
+/* Added margin-bottom to create space between elements */
+.HearTheDifferentBox1 h2,
+.HearTheDifferentBox1 h3,
+.HearTheDifferentBox1 p {
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+
+.HearTheDifferentBox2 {
+    flex: 1;
+    max-width: 50%;
+    padding: 20px;
+}
+
+.hear__the__difference h2 {
+    font-size: 3rem;
+}
+
+
+
+
+/* Styling of third flexbox */
+.Services {
+    text-align: center; 
+}
+
+.Services h2 {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    font-size: 3rem;
+}
+
+.Flex__Container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 90%;
+    overflow: auto;
+    flex-direction: row;
+    margin-left: 90px;
+}
+
+.Flex__Container h3 {
+    margin-bottom: 20px; 
+}
+
+.Flex__Container article {
+    width: 300px;
+    height: 200px;
+    margin: 5px;
+}
+
+
+
+
+/* Styling of the fourth flex box */
+.tailored__for__you__flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; /* Removes the default margin */
+    margin: 60px 60px 60px 100px;
+}
+
+.tailored__for__you__box1 {
+    flex: 1;
+}
+
+.tailored__for__you__box2 {
+    flex: 1;
+    padding: 30px;
+}
+
+.tailored__content {
+    text-align: center; /* Centers the text within child2 */
+}
+
+/* Added margin-bottom to create space between elements */
+.tailored__content h2 {
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+.tailored__content h3 {
+    margin-bottom: 20px; 
+}
+.tailored__content p {
+    margin-bottom: 20px; 
+}
+
+
+
+/* Styling of the 'dont miss a thing section' */
+.dont__miss__a__thing {
+    background-image: url(/img/gradient-color-line-wave-background_483537-3986.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center; 
+    text-align: center; 
+    color: white;
+    max-height: 500px;
+    margin-bottom: 40px;
+}
+
+.dont__miss__a__thing h2 {
+    margin-top: 100px;
+    font-size: 3rem; /* 3rem is equivalent to 48 pixels */
+}
+
+.sign__up {
+    margin-top: 20px; /* Adding space between h2 and p */
+    font-size: 1.2rem; /* 1.2rem is equal to approximately 19.2px */
+    margin-bottom: 20px;
+}
+
+.the__best__in__business {
+    color: black;
+}
+
+.the__best__in__business h2 {
+    text-align: center;
+    font-size: 3rem; 
+    margin-bottom: 50px;
+}
+
+
+
+
+
+/* Styling the subcribe button */
+.aboutUs__submit {
+    background-color: grey;
+    color: white;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+/* Increase the font size and padding for both the input and button */
+input[type="email"],
+.aboutUs__submit {
+    font-size: 18px; 
+    padding: 10px; 
+}
+
+/* Change button color on hover */
+.aboutUs__submit:hover {
+    background-color: black;
+}
+
+.email__form__aboutUs {
+    display: flex;
+    align-items: center; 
+}
+
+.email-form input[type="email"] {
+    flex: 1; 
+    margin-right: 10px; 
+}
+
+
+
+
+/* Styling of the round button at the bottom of the page */
+.round__button__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-bottom: 30px;
+}
+
+.round__button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid black; 
+    border-radius: 50%; 
+    text-decoration: none;
+    color: black;
+    transition: border-width 0.3s; /* Transition for border size */
+}
+
+/* Hover effect to increase border size */
+.round__button:hover {
+    border-width: 3px; /* Border size on hover */
+}

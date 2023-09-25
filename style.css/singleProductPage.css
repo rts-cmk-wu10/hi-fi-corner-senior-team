@@ -1,4 +1,4 @@
-body{
+/* body{
     background-color: #000;
 }
 
@@ -9,7 +9,7 @@ button {
 
 p{
     margin-right: 1rem;
-}
+} */
 
 .singleProduct__container{
     margin: 5%;
@@ -152,7 +152,7 @@ p{
     margin-right: 1rem ;
 }
 
-.productHeader {
+.productName {
     color: rgba(163, 145, 97, 1);
     text-transform: uppercase;
 }
