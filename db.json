@@ -24,6 +24,7 @@
             "id": 2,
             "category": "Cd Player",
             "model": "Creek Destiny",
+            "brand": "Creek",
             "warranty": "4 years",
             "color": [
                 "Charcoal",
@@ -41,7 +42,7 @@
 
             "category": "Cd Player",
             "model": "Creek Evo",
-            "brand": "Samsung",
+            "brand": "Creek",
             "warranty": "2.5 years",
             "color": [
                 "Silver",
@@ -75,7 +76,7 @@
             "id": 5,
             "category": "streamers",
             "model": "Creek Classic",
-            "brand": "Marantz",
+            "brand": "Creek",
             "warranty": "3 years",
             "color": [
                 "Black",
@@ -618,3 +619,4 @@
         }
     ]
 }
+
