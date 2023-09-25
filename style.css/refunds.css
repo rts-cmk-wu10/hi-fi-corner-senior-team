@@ -15,17 +15,12 @@
     font-size: 3rem;
 }
 
-section {
+.return__section {
     margin-bottom: 40px;
     text-align: center;
 }
 
-section h3 {
+.return__section h3 {
     margin-bottom: 20px;
 }
 
-/* Add margin-left and margin-right to all sections except the first one */
-main section:not(.refunds__section__heading) {
-    margin-left: 100px;
-    margin-right: 100px;
-}
