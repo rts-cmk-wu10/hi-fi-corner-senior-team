@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hi-Fi-Shop Category List</title>
-    <link rel="stylesheet" href="/hi-fi-corner-senior-team/style.css/categoryList.css">
+    <link rel="stylesheet" href="/style.css/files.css">
 </head>
 
-<body>
+<body class="">
     <header class="subCategoryHeader">
 		<nav role="navigation">
 			<a href="./" class="siteBrand">Home</a>
@@ -30,7 +30,14 @@
 		</nav>
 	</header>
 	<main id="shop__categoryContainer">
-
+		<div class="search-container">
+			<form class="searchForm">
+				<input type="text" name="search" placeholder="Search Products">
+				<button type="submit">Search</button>
+			</form>
+		</div>
+		<div id="search-results" class="product-container"></div>
+		<div id="product-grid" class="product-container hidden"></div> <!-- Hide the product grid -->
 	</main>
 
 	<script src="/hi-fi-corner-senior-team/js/shop-category-nav.js" defer></script>
