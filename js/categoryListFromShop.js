@@ -11,7 +11,7 @@ fetch(`http://localhost:3000/products?q=${URL.get("category")}`)
 
 
 
-        const productFocus = document.querySelector(".products__Ul")
+        const productFocus = document.querySelector(".categoryList__Ul")
         productFocus.innerHTML = "";
 
         

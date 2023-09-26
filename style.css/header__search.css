@@ -1,8 +1,9 @@
 .header__search {
-    position: fixed;
+    /* position: fixed; */
     z-index: 99;
     /* height: 100%; */
     width: 100%;
+    color: lightgray;
 }
 
 .header__top {
@@ -14,6 +15,8 @@
 
     text-transform: uppercase;
     font-size: 14px;
+    width: 100%;
+    background: black;
 }
 
 .header__navbar {
@@ -25,21 +28,31 @@
     height: 3em;
 }
 
-nav a {
+.header__nav a {
     text-transform: uppercase;
-    color: white;
+    color: lightgray;
     text-decoration: none;
     margin: 0 5px;
 }
 
 /* ----------------design top-------------- */
 
-.search_form--input {
-    padding: 4px 4px;
+.search__form {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    
 }
 
-.search_form--submit {
-    font-size: 8px;
+.search_form--input {
+    padding: 4px 4px;
+    width: 40%;
+}
+
+.header__submit {
+    /* font-size: 8px; */
     border: none;
-    background-color: blue;
+    margin: 0 0 0 2%;
+    padding:0% 1% 0% 1% ;
+    border-radius: 5px;
 }
