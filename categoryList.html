@@ -2,18 +2,26 @@
 <html lang="da">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hi-Fi-Shop Category List</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hi-Fi-Shop Category List</title>
 	<link rel="stylesheet" href="/style.css/files.css">
+	<script src="https://kit.fontawesome.com/07e7abd320.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="categoryList__body">
+	
 	<header class="header__search"></header>
 
-    <header class="subCategoryHeader">
-		<nav role="navigation">
-			<a href="./" class="siteBrand">Home</a>
+	<main class="categoryList">
+		<header class="categoryList__header">
+			<h3 class="categoryList__h1">header</h3>
+			<section class="categoryList__sortBy">
+			sortyby
+			</section>
+		</header>
+
+		<nav class="categoryList__category" role="navigation">
 			<ul class="shopNavigation">
 				<li class="categoryNav__navItem">
 					<a href="#" data-point="amplifiers">Amplifiers</a>
@@ -26,10 +34,8 @@
 				</li>
 			</ul>
 		</nav>
-	</header>
 
-	<header class="subBrandHeader">
-		<nav role="navigation">
+		<nav class="categoryList__shopBy">
 			<h2>Search by brand</h2>
 			<ul class="shopNavigation">
 				<li class="categoryNav__navItem">
@@ -39,22 +45,27 @@
 					<a href="#" data-point="creek">Creek</a>
 				</li>
 			</ul>
-		</nav>
-	</header>
 
-	<!-- //ayas fetch -->
-	<main>
-		<section class="products">
-			<ul class="products__Ul"></ul>
+		</nav>
+
+		<section class="categoryList__products">
+
+			<!-- //ayas fetch -->
+			<ul class="categoryList__Ul"></ul>
 		</section>
 
-		<section id="shop__categoryContainer" ></section>
+		<aside class="categoryList__sidebar">
+			<h3 class="categoryList__h3">manufacturer</h3>
+		</aside>
+
 	</main>
+
+	<section id="shop__categoryContainer"></section>
 
 	<script src="/js/shop-category-nav.js" defer></script>
 	<script src="js/header__search.js" defer></script>
-	<script src="js/categoryListFromShop.js"></script>	
-	
+	<script src="js/categoryListFromShop.js"></script>
+
 </body>
 
 </html>

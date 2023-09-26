@@ -1,5 +1,5 @@
 .header {
-    position: fixed;
+    position: absolute;
     z-index: 99;
     /* height: 100%; */
     width: 100%;
@@ -10,10 +10,11 @@
     justify-content: flex-end;
     gap: 10px;
     padding: 15px 15px;
+    border-bottom: 1ps solid lightgray;
 }
 
 .header__top i{
-    margin: 2px 6px 0 6px;
+    margin: 2px 6px 0 10px;
 }
 
 .header__navbar {
@@ -25,7 +26,7 @@
     height: 3em;
 }
 
-nav a {
+.header__nav a {
     text-transform: uppercase;
     color: white;
     text-decoration: none;
