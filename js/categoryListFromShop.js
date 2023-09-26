@@ -26,6 +26,10 @@ fetch(`http://localhost:3000/products?q=${URL.get("category")}`)
         h3.textContent = item.model;
         li.appendChild(h3);
 
+        const span = document.createElement("span");
+        span.textContent = "Published: " + result.published;
+        li.appendChild(span);
+
         productFocus.appendChild(li)
         })
 
