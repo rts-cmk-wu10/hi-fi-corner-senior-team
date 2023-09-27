@@ -26,45 +26,19 @@ fetch(`http://localhost:3000/products?q=${URL.get("category")}`)
         //li i ul
         const LI = document.createElement("li");
         LI.className = "li__box"
-        
-
-        //elements på li----------------
-
-        //link omkring hele produktet
-        const LINK = document.createElement("a");
-        LINK.href = `/singleProduct.html?model=${item.id}`
-        LINK.className = "productList__link";
-        LI.appendChild(LINK)
-
-        const DIV_IMG = document.createElement("section")
-        DIV_IMG.className = "div__img"
-        LINK.appendChild(DIV_IMG)
-
-        const FIGURE_IMG = document.createElement("figure")
-        FIGURE_IMG.className = "figure__img"
-        DIV_IMG.appendChild(FIGURE_IMG)
-
-        const IMG = document.createElement("img")
-        IMG.src = item.img;
-        IMG.className = "productList__img"
-        FIGURE_IMG.appendChild(IMG)
-
-        
-        
-
-        const H3 = document.createElement("h3");
-        H3.textContent = item.category += " " + item.model;
-        LI.appendChild(H3);
-
-        const PRICE = document.createElement("p")
-        PRICE.textContent = item.currentPrice;
-        PRICE.className = "currentPrice"
-        LI.appendChild(PRICE);
-
-        const PREVIOUSPRICE = document.createElement("p")
-        PREVIOUSPRICE.textContent = item.previousPrice;
-        PREVIOUSPRICE.className = "previousPrice"
-        LI.appendChild(PREVIOUSPRICE);
+        LI.innerHTML =`
+        <a href="/singleProduct.html?model=${item.id}" class"productList__link">
+        <section class="div__img"> 
+        <figure class="figure__img">
+        <img src="${item.img}" alt="product photo" class="productList__img">
+        </figure>
+        </section>
+        </a>
+        <h3>${item.category} ${item.model}</h3>
+        <p class="currentPrice">${item.currentPrice}</p>
+        <p class="previousPrice">${item.previousPrice}</p>
+        `
+   
         
         if (item.availability) {
           const SEEPRODUCT = document.createElement("button")
@@ -88,7 +62,41 @@ fetch(`http://localhost:3000/products?q=${URL.get("category")}`)
 // http://localhost:3000/products?q=speaker
 
 
+     //elements på li----------------
 
+        //link omkring hele produktet
+        // const LINK = document.createElement("a");
+        // LINK.href = `/singleProduct.html?model=${item.id}`
+        // LINK.className = "productList__link";
+        // LI.appendChild(LINK)
+
+        // const DIV_IMG = document.createElement("section")
+        // DIV_IMG.className = "div__img"
+        // LINK.appendChild(DIV_IMG)
+
+        // const FIGURE_IMG = document.createElement("figure")
+        // FIGURE_IMG.className = "figure__img"
+        // DIV_IMG.appendChild(FIGURE_IMG)
+
+        // const IMG = document.createElement("img")
+        // IMG.src = item.img;
+        // IMG.className = "productList__img"
+        // FIGURE_IMG.appendChild(IMG)
+
+
+        // const H3 = document.createElement("h3");
+        // H3.textContent = item.category += " " + item.model;
+        // LI.appendChild(H3);
+
+        // const PRICE = document.createElement("p")
+        // PRICE.textContent = item.currentPrice;
+        // PRICE.className = "currentPrice"
+        // LI.appendChild(PRICE);
+
+        // const PREVIOUSPRICE = document.createElement("p")
+        // PREVIOUSPRICE.textContent = item.previousPrice;
+        // PREVIOUSPRICE.className = "previousPrice"
+        // LI.appendChild(PREVIOUSPRICE);
 
 
 
