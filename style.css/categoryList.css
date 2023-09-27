@@ -108,3 +108,54 @@
     grid-column: 2;
     grid-row: 1;
 }
+
+/* ----------------categoryListFromShop.js--------------  */
+
+.categoryList__Ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.li__box {
+
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 20%;
+    margin: 0 1%;
+}
+
+.currentPrice {
+    color: rgba(139, 109, 50, 0.848);
+    font-weight: 500;
+}
+
+.previousPrice {
+    font-size: 14px;
+    text-decoration: line-through;
+    color: darkgray;
+}
+
+.div__img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 200px;
+}
+
+.figure__img {
+    padding: 10% 0;
+}
+
+.productList__img {
+    /* /* height: 8em; */
+    width: 10em;
+}
+
+
+
