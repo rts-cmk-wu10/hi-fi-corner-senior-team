@@ -27,6 +27,7 @@ fetch(`http://localhost:3000/products?q=${URL.get("category")}`)
         li.appendChild(h3);
 
         productFocus.appendChild(li)
+        
         })
 
 
