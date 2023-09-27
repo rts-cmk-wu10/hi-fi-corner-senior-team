@@ -17,8 +17,9 @@
             "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
-            "card-surcharges": "no",
-            "img": "/img_db/cd_afspillere/creek_classic_cd.jpg"
+            "card_surcharges": "no",
+            "img": "/img_db/cd_afspillere/creek_classic_cd.jpg",
+            "availability": "Add to basket"
         },
         {
             "id": 2,
@@ -34,8 +35,9 @@
             "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
-            "card-surcharges": "no",
-            "img": "/img_db/cd_afspillere/creek_Destiny_CD.jpg"
+            "card_surcharges": "no",
+            "img": "/img_db/cd_afspillere/creek_Destiny_CD.jpg",
+            "availability": "Add to basket"
         },
         {
             "id": 3,
@@ -52,7 +54,7 @@
             "previousPrice": "1700kr.",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
-            "card-surcharges": "no",
+            "card_surcharges": "no",
             "img": "/img_db/cd_afspillere/creek_evo_cd.jpg"
         },
         {
@@ -69,12 +71,12 @@
             "previousPrice": "1700kr.",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
-            "card-surcharges": "no",
+            "card_surcharges": "no",
             "img": "/img_db/cd_afspillere/Exp_2010S_CD.gif"
         },
         {
             "id": 5,
-            "category": "streamer",
+            "category": "Streamer",
             "model": "Creek Classic",
             "brand": "Creek",
             "warranty": "3 years",
@@ -86,12 +88,13 @@
             "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
-            "card-surcharges": "no",
-            "img": "/img_db/dvdafspillere/creek_classic.jpg"
+            "card_surcharges": "no",
+            "img": "/img_db/dvdafspillere/creek_classic.jpg",
+            "availability": "Add to basket"
         },
         {
             "id": 6,
-            "category": "streamer",
+            "category": "Streamer",
             "model": "2010S",
             "brand": "Exposure",
             "warranty": "4 years",
@@ -103,12 +106,12 @@
             "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
-            "card-surcharges": "no",
+            "card_surcharges": "no",
             "img": "/img_db/dvdafspillere/exposure_2010S.jpg"
         },
         {
             "id": 7,
-            "category": "streamer",
+            "category": "Streamer",
             "model": "D200",
             "brand": "Parasound",
             "warranty": "2.5 years",
@@ -120,12 +123,13 @@
             "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
-            "card-surcharges": "no",
-            "img": "/img_db/dvdafspillere/parasound_d200.jpg"
+            "card_surcharges": "no",
+            "img": "/img_db/dvdafspillere/parasound_d200.jpg",
+            "availability": "Add to basket"
         },
         {
             "id": 8,
-            "category": "streamer",
+            "category": "Streamer",
             "model": "halod3",
             "brand": "Parasound",
             "warranty": "2.5 years",
@@ -137,8 +141,8 @@
             "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
-            "card-surcharges": "no",
-            "img": "/img_db/dvdafspillere/parasound_halo3.jpg"
+            "card_surcharges": "no",
+            "img": "/img_db/dvdafspillere/parasound_halod3.jpg"
         },
         {
             "id": 9,
@@ -154,7 +158,7 @@
             "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
-            "card-surcharges": "no",
+            "card_surcharges": "no",
             "img": "/img_db/effektforstaerkere/manley_mahi.jpg"
         },
         {
@@ -171,8 +175,9 @@
             "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
-            "card-surcharges": "no",
-            "img": "/img_db/effektforstaerkere/manley_neoclassic300b.jpg"
+            "card_surcharges": "no",
+            "img": "/img_db/effektforstaerkere/manley_neoclassic300b.jpg",
+            "availability": "Add to basket"
         },
         {
             "id": 11,
@@ -188,8 +193,9 @@
             "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
-            "card-surcharges": "no",
-            "img": "/img_db/effektforstaerkere/manley_snapper.jpg"
+            "card_surcharges": "no",
+            "img": "/img_db/effektforstaerkere/manley_snapper.jpg",
+            "availability": "Add to basket"
         },
         {
             "id": 12,
@@ -205,7 +211,7 @@
             "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
-            "card-surcharges": "no",
+            "card_surcharges": "no",
             "img": "/img_db/effektforstaerkere/parasound_haloa23.jpg"
         },
         {
@@ -222,7 +228,7 @@
             "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
-            "card-surcharges": "no",
+            "card_surcharges": "no",
             "img": "/img_db/forforstaerkere/Creek_OBH_22_Passive_Preamp.jpg"
         },
         {
@@ -239,8 +245,9 @@
             "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
-            "card-surcharges": "no",
-            "img": "/img_db/forforstaerkere/parasound_classic7100.jpg"
+            "card_surcharges": "no",
+            "img": "/img_db/forforstaerkere/parasound_classic7100.jpg",
+            "availability": "Add to basket"
         },
         {
             "id": 15,
@@ -256,8 +263,9 @@
             "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
-            "card-surcharges": "no",
-            "img": "/img_db/forforstaerkere/parasound_halop3.jpg"
+            "card_surcharges": "no",
+            "img": "/img_db/forforstaerkere/parasound_halop3.jpg",
+            "availability": "Add to basket"
         },
         {
             "id": 16,
@@ -273,8 +281,9 @@
             "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
-            "card-surcharges": "no",
-            "img": "/img_db/forforstaerkere/Project_prebox.jpg"
+            "card_surcharges": "no",
+            "img": "/img_db/forforstaerkere/Project_prebox.jpg",
+            "availability": "Add to basket"
         },
         {
             "id": 17,
@@ -290,7 +299,7 @@
             "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
-            "card-surcharges": "no",
+            "card_surcharges": "no",
             "img": "/img_db/hojtalere/boesendorfer_vcs_wall.jpg"
         },
         {
@@ -307,8 +316,9 @@
             "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
-            "card-surcharges": "no",
-            "img": "/img_db/hojtalere/epos_m5.jpg"
+            "card_surcharges": "no",
+            "img": "/img_db/hojtalere/epos_m5.jpg",
+            "availability": "Add to basket"
         },
         {
             "id": 19,
@@ -324,7 +334,7 @@
             "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
-            "card-surcharges": "no",
+            "card_surcharges": "no",
             "img": "/img_db/hojtalere/harbeth_hles2.jpg"
         },
         {
@@ -341,8 +351,9 @@
             "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
-            "card-surcharges": "no",
-            "img": "/img_db/hojtalere/harbeth_monitor30.jpg"
+            "card_surcharges": "no",
+            "img": "/img_db/hojtalere/harbeth_monitor30.jpg",
+            "availability": "Add to basket"
         },
         {
             "id": 21,
@@ -358,8 +369,9 @@
             "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
-            "card-surcharges": "no",
-            "img": "/img_db/hojtalere/harbeth_p3es2.jpg"
+            "card_surcharges": "no",
+            "img": "/img_db/hojtalere/harbeth_p3es2.jpg",
+            "availability": "Add to basket"
         },
         {
             "id": 22,
@@ -375,8 +387,8 @@
             "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
-            "card-surcharges": "no",
-            "img": "/img_db/int_forstaerkere/creek_a50l.jpg"
+            "card_surcharges": "no",
+            "img": "/img_db/int_forstaerkere/creek_a50i.jpg"
         },
         {
             "id": 23,
@@ -392,8 +404,9 @@
             "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
-            "card-surcharges": "no",
-            "img": "/img_db/int_forstaerkere/creek_classic5350SE.jpg"
+            "card_surcharges": "no",
+            "img": "/img_db/int_forstaerkere/creek_classic5350SE.jpg",
+            "availability": "Add to basket"
         },
         {
             "id": 24,
@@ -409,7 +422,7 @@
             "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
-            "card-surcharges": "no",
+            "card_surcharges": "no",
             "img": "/img_db/int_forstaerkere/creek_destinyamp.jpg"
         },
         {
@@ -426,8 +439,9 @@
             "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
-            "card-surcharges": "no",
-            "img": "/img_db/int_forstaerkere/Manley_Stingray.jpg"
+            "card_surcharges": "no",
+            "img": "/img_db/int_forstaerkere/Manley_Stingray.jpg",
+            "availability": "Add to basket"
         },
         {
             "id": 26,
@@ -443,8 +457,9 @@
             "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
-            "card-surcharges": "no",
-            "img": "/img_db/int_forstaerkere/Manley_Stingray.jpg"
+            "card_surcharges": "no",
+            "img": "/img_db/int_forstaerkere/Manley_Stingray.jpg",
+            "availability": "Add to basket"
         },
         {
             "id": 27,
@@ -460,7 +475,7 @@
             "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
-            "card-surcharges": "no",
+            "card_surcharges": "no",
             "img": "/img_db/pladespillere/Pro_ject_Debut_3_bl.jpg"
         },
         {
@@ -477,8 +492,9 @@
             "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
-            "card-surcharges": "no",
-            "img": "/img_db/pladespillere/Pro_ject_Debut_lll_red_1.jpg"
+            "card_surcharges": "no",
+            "img": "/img_db/pladespillere/Pro_ject_Debut_lll_red_1.jpg",
+            "availability": "Add to basket"
         },
         {
             "id": 29,
@@ -494,7 +510,7 @@
             "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
-            "card-surcharges": "no",
+            "card_surcharges": "no",
             "img": "/img_db/pladespillere/Pro_ject_Debut_lll_yellow_1.jpg"
         },
         {
@@ -511,8 +527,9 @@
             "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
-            "card-surcharges": "no",
-            "img": "/img_db/pladespillere/Pro_ject_rpm_5.jpg"
+            "card_surcharges": "no",
+            "img": "/img_db/pladespillere/Pro_ject_rpm_5.jpg",
+            "availability": "Add to basket"
         },
         {
             "id": 31,
@@ -528,8 +545,9 @@
             "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
-            "card-surcharges": "no",
-            "img": "/img_db/pladespillere/Pro_ject_rpm10.jpg"
+            "card_surcharges": "no",
+            "img": "/img_db/pladespillere/Pro_ject_rpm10.jpg",
+            "availability": "Add to basket"
         },
         {
             "id": 32,
@@ -545,8 +563,9 @@
             "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
-            "card-surcharges": "no",
-            "img": "/img_db/roer_forstaerkere/jolida_JD102b.jpg"
+            "card_surcharges": "no",
+            "img": "/img_db/roer_forstaerkere/jolida_JD102b.jpg",
+            "availability": "Add to basket"
         },
         {
             "id": 33,
@@ -562,7 +581,7 @@
             "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
-            "card-surcharges": "no",
+            "card_surcharges": "no",
             "img": "/img_db/roer_forstaerkere/jolida_JD202a.jpg"
         },
         {
@@ -579,8 +598,9 @@
             "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
-            "card-surcharges": "no",
-            "img": "/img_db/roer_forstaerkere/jolida_JD300b.jpg"
+            "card_surcharges": "no",
+            "img": "/img_db/roer_forstaerkere/jolida_JD300b.jpg",
+            "availability": "Add to basket"
         },
         {
             "id": 35,
@@ -596,8 +616,9 @@
             "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
-            "card-surcharges": "no",
-            "img": "/img_db/roer_forstaerkere/jolida_JD302b.jpg"
+            "card_surcharges": "no",
+            "img": "/img_db/roer_forstaerkere/jolida_JD302b.jpg",
+            "availability": "Add to basket"
         },
         {
             "id": 36,
@@ -614,7 +635,7 @@
             "previousPrice": "1700",
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
-            "card-surcharges": "no",
+            "card_surcharges": "no",
             "img": "/img_db/roer_forstaerkere/jolida_JD502b.jpg"
         }
     ]
