@@ -19,7 +19,7 @@
     grid-template-columns: 1fr 4fr 1fr;
     grid-template-rows: 88px 1fr 1fr;
 
-    margin: 2% 5%;
+    margin: 2px 5%;
 }
 
 /* grid body  */
@@ -46,6 +46,7 @@
     background: lightgray;
     color: beige;
     margin: 2% 2% 2% 2%;
+    padding: 10px;
 }
 
 .categoryList__shopBy {
@@ -53,6 +54,7 @@
 
     background: lightgray;
     margin: 2% 2% 2% 2%;
+    padding: 10px;
 }
 
 .categoryList__products {
