@@ -4,7 +4,7 @@
     "products": [
         {
             "id": 1,
-            "category": "Cd Player",
+            "category": "Cd_player",
             "model": "Creek Classic",
 
             "brand": "Creek",
@@ -23,7 +23,7 @@
         },
         {
             "id": 2,
-            "category": "Cd Player",
+            "category": "Cd_player",
             "model": "Creek Destiny",
             "brand": "Creek",
             "warranty": "4 years",
@@ -42,7 +42,7 @@
         {
             "id": 3,
 
-            "category": "Cd Player",
+            "category": "Cd_player",
             "model": "Creek Evo",
             "brand": "Creek",
             "warranty": "2.5 years",
@@ -59,7 +59,7 @@
         },
         {
             "id": 4,
-            "category": "Cd Player",
+            "category": "Cd_player",
             "model": "2010S",
             "brand": "Exposure",
             "warranty": "2.5 years",
@@ -300,7 +300,7 @@
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card_surcharges": "no",
-            "img": "/img_db/hojtalere/boesendorfer_vcs_wall.jpg"
+            "img": "/img_db/hojtalere/boesendorfer_vcs_wall.gif"
         },
         {
             "id": 18,
@@ -317,7 +317,7 @@
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card_surcharges": "no",
-            "img": "/img_db/hojtalere/epos_m5.jpg",
+            "img": "/img_db/hojtalere/epos_m5.gif",
             "availability": "Add to basket"
         },
         {
@@ -335,7 +335,7 @@
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card_surcharges": "no",
-            "img": "/img_db/hojtalere/harbeth_hles2.jpg"
+            "img": "/img_db/hojtalere/harbeth_hl7es2.jpg"
         },
         {
             "id": 20,
@@ -493,7 +493,7 @@
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card_surcharges": "no",
-            "img": "/img_db/pladespillere/Pro_ject_Debut_lll_red_1.jpg",
+            "img": "/img_db/pladespillere/Pro_ject_Debut_iii_red_1.jpg",
             "availability": "Add to basket"
         },
         {
@@ -511,7 +511,7 @@
             "delivery_charge": "Free",
             "delivery_time": "1-5 Working Days",
             "card_surcharges": "no",
-            "img": "/img_db/pladespillere/Pro_ject_Debut_lll_yellow_1.jpg"
+            "img": "/img_db/pladespillere/Pro_ject_Debut_iii_yellow_1.jpg"
         },
         {
             "id": 30,

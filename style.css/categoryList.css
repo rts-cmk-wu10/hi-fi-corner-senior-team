@@ -60,7 +60,6 @@
 .categoryList__products {
     grid-area: content;
 
-    padding: 20px;
     margin: 1% 1% 1% 1%;
 }
 
@@ -113,8 +112,10 @@
 
 .categoryList__Ul {
     display: flex;
+    gap: 4%;
+    
     flex-wrap: wrap;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .li__box {
@@ -124,8 +125,8 @@
     flex-direction: column;
     align-items: center;
     
-    width: 20%;
-    margin: 0 1%;
+    /* width: 22%; */
+    margin-bottom: 2%;
 }
 
 .currentPrice {
@@ -141,7 +142,6 @@
 
 .div__img {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
 
@@ -149,12 +149,19 @@
 }
 
 .figure__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 100%; */
+    height: 100%;
     padding: 10% 0;
+
+    border: lightgray 1px solid;
 }
 
 .productList__img {
-    /* /* height: 8em; */
-    width: 10em;
+    width: 150px;
+    height: 100px;
 }
 
 
