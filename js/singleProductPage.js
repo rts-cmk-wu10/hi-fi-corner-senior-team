@@ -1,6 +1,6 @@
 const URL = new URLSearchParams(window.location.search);
 
-fetch(`http://localhost:3000/products/${URL.get("products")}`) 
+fetch(`http://localhost:3000/products/${URL.get("model")}`) 
   .then(function (response) {
     return response.json();
   })
