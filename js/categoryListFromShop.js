@@ -46,10 +46,6 @@ fetch(`http://localhost:3000/products?q=${URL.get("category")}`)
         PREVIOUSFOCUS.appendChild(LI)
 
 
-
-
-        
-
         })
 
 
