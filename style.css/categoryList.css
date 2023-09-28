@@ -159,3 +159,16 @@
 
 
 
+/* Leas search and show in a grid */
+
+/* Updated CSS to arrange grid containers */
+.product__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+
+  
+
+

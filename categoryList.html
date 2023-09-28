@@ -1,75 +1,78 @@
 <!DOCTYPE html>
 <html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hi-Fi-Shop Category List</title>
+    <link rel="stylesheet" href="/style.css/files.css" />
+    <script
+      src="https://kit.fontawesome.com/07e7abd320.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Hi-Fi-Shop Category List</title>
-	<link rel="stylesheet" href="/style.css/files.css">
-	<script src="https://kit.fontawesome.com/07e7abd320.js" crossorigin="anonymous"></script>
-</head>
+  <body class="categoryList__body">
+    <header class="header__search"></header>
+    <img src="" alt="" />
 
-<body class="categoryList__body">
-	
-	<header class="header__search"></header>
-	<img src="" alt="">
-	<main class="categoryList">
-		<header class="categoryList__header">
-			<h2 class="categoryList__h2"></h2>
-			<section class="categoryList__sortBy">
-			<select name="sortby" id="sortby">
-				<option value="price">Price</option>
-				<option value="brand">Brand</option>
-				<option value="availability">Availability</option>
-			</select>
-			</section>
-		</header>
+    <main class="categoryList">
+      <header class="categoryList__header">
+        <h2 class="categoryList__h2"></h2>
+        <section class="categoryList__sortBy">
+          <select name="sortby" id="sortby">
+            <option value="price">Price</option>
+            <option value="brand">Brand</option>
+            <option value="availability">Availability</option>
+          </select>
+        </section>
+      </header>
 
-		<nav class="categoryList__category" role="navigation">
-			<ul class="shopNavigation">
-				<li class="categoryNav__navItem">
-					<a href="#" data-point="amplifiers">Amplifiers</a>
-				</li>
-				<li class="categoryNav__navItem">
-					<a href="#" data-point="speakers">Speakers</a>
-				</li>
-				<li class="categoryNav__navItem">
-					<a href="#" data-point="turntables">Turntables</a>
-				</li>
-			</ul>
-		</nav>
+      <nav class="categoryList__category" role="navigation">
+        <ul class="shopNavigation">
+          <li class="categoryNav__navItem">
+            <a href="#" data-point="amplifiers">Amplifiers</a>
+          </li>
+          <li class="categoryNav__navItem">
+            <a href="#" data-point="speakers">Speakers</a>
+          </li>
+          <li class="categoryNav__navItem">
+            <a href="#" data-point="turntables">Turntables</a>
+          </li>
+        </ul>
+      </nav>
 
-		<nav class="categoryList__shopBy">
-			<h2>Search by brand</h2>
-			<ul class="shopNavigation">
-				<li class="categoryNav__navItem">
-					<a href="#" data-point="marantz">Marantz</a>
-				</li>
-				<li class="categoryNav__navItem">
-					<a href="#" data-point="creek">Creek</a>
-				</li>
-			</ul>
+      <nav class="categoryList__shopBy">
+        <h2>Search by brand</h2>
+        <ul class="shopNavigation">
+          <li class="categoryNav__navItem">
+            <a href="#" data-point="marantz">Marantz</a>
+          </li>
+          <li class="categoryNav__navItem">
+            <a href="#" data-point="creek">Creek</a>
+          </li>
+        </ul>
+      </nav>
 
-		</nav>
+      <section class="categoryList__products">
+        <!-- //ayas fetch -->
+        <ul class="categoryList__Ul"></ul>
+		<ul id="product-grid" class="product__container hidden"></ul>
+			<!-- Leas fetch -->
+        	<!-- DIV is chosen, as I doubt whether hidden containers are read by screen readers -->
+        	<!-- <div id="product-grid" class="product__container hidden"></div> -->   <!-- Initially hide the product grid -->
+		
+      </section>
 
-		<section class="categoryList__products">
+      <aside class="categoryList__sidebar">
+        <h3 class="categoryList__h3">manufacturer</h3>
+      </aside>
+    </main>
 
-			<!-- //ayas fetch -->
-			<ul class="categoryList__Ul"></ul>
-		</section>
+  
 
-		<aside class="categoryList__sidebar">
-			<h3 class="categoryList__h3">manufacturer</h3>
-		</aside>
-
-	</main>
-
-	<!-- <section id="shop__categoryContainer"></section> -->
-
-	<!-- <script src="/js/shop-category-nav.js" defer></script> -->
-	<script src="js/header__search.js" defer></script>
-	<script src="js/categoryListFromShop.js"></script>
-
-</body>
-
+    <!-- <script src="/js/shop-category-nav.js" defer></script> -->
+    <script src="js/header__search.js" defer></script>
+    <script src="js/categoryListFromShop.js"></script>
+    <script src="js/shopCategory.js"></script>
+  </body>
 </html>
