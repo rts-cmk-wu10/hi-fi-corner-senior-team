@@ -2,7 +2,7 @@
 @import url("/style.css/header.css");
 @import url("/style.css/brands.css");
 @import url("/style.css/customProperties.css");
-@import url("/style.css/gridCategory.css");
+@import url("/style.css/shopCategory.css");
 @import url("/style.css/index.css");
 @import url("/style.css/search.css");
 @import url("/style.css/linkStyle.css");
@@ -17,3 +17,5 @@
 @import url("/style.css/refunds.css");
 @import url("/style.css/privacy.css");
 @import url("/style.css/events.css");
+@import url("/style.css/header__search.css");
+@import url("/style.css/categoryList.css");

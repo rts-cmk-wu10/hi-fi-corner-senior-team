@@ -2,38 +2,74 @@
 <html lang="da">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hi-Fi-Shop Category List</title>
-    <link rel="stylesheet" href="/hi-fi-corner-senior-team/style.css/categoryList.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hi-Fi-Shop Category List</title>
+	<link rel="stylesheet" href="/style.css/files.css">
+	<script src="https://kit.fontawesome.com/07e7abd320.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
-    <header class="subCategoryHeader">
-		<nav role="navigation">
-			<a href="./" class="siteBrand">Home</a>
+<body class="categoryList__body">
+	
+	<header class="header__search"></header>
+	<img src="" alt="">
+	<main class="categoryList">
+		<header class="categoryList__header">
+			<h2 class="categoryList__h2"></h2>
+			<section class="categoryList__sortBy">
+			<select name="sortby" id="sortby">
+				<option value="price">Price</option>
+				<option value="brand">Brand</option>
+				<option value="availability">Availability</option>
+			</select>
+			</section>
+		</header>
+
+		<nav class="categoryList__category" role="navigation">
 			<ul class="shopNavigation">
-				<li class="categoryNav__navItem"><a href="#" data-point="amplifiers">Amplifiers</a></li>
-				<li class="categoryNav__navItem"><a href="#" data-point="speakers">Speakers</a></li>
-				<li class="categoryNav__navItem"><a href="#" data-point="turntables">Turntables</a></li>
+				<li class="categoryNav__navItem">
+					<a href="#" data-point="amplifiers">Amplifiers</a>
+				</li>
+				<li class="categoryNav__navItem">
+					<a href="#" data-point="speakers">Speakers</a>
+				</li>
+				<li class="categoryNav__navItem">
+					<a href="#" data-point="turntables">Turntables</a>
+				</li>
 			</ul>
 		</nav>
-	</header>
 
-	<header class="subBrandHeader">
-		<nav role="navigation">
+		<nav class="categoryList__shopBy">
 			<h2>Search by brand</h2>
 			<ul class="shopNavigation">
-				<li class="categoryNav__navItem"><a href="#" data-point="marantz">Marantz</a></li>
-				<li class="categoryNav__navItem"><a href="#" data-point="creek">Creek</a></li>
+				<li class="categoryNav__navItem">
+					<a href="#" data-point="marantz">Marantz</a>
+				</li>
+				<li class="categoryNav__navItem">
+					<a href="#" data-point="creek">Creek</a>
+				</li>
 			</ul>
+
 		</nav>
-	</header>
-	<main id="shop__categoryContainer">
+
+		<section class="categoryList__products">
+
+			<!-- //ayas fetch -->
+			<ul class="categoryList__Ul"></ul>
+		</section>
+
+		<aside class="categoryList__sidebar">
+			<h3 class="categoryList__h3">manufacturer</h3>
+		</aside>
 
 	</main>
 
-	<script src="/hi-fi-corner-senior-team/js/shop-category-nav.js" defer></script>
+	<!-- <section id="shop__categoryContainer"></section> -->
+
+	<!-- <script src="/js/shop-category-nav.js" defer></script> -->
+	<script src="js/header__search.js" defer></script>
+	<script src="js/categoryListFromShop.js"></script>
+
 </body>
 
 </html>
