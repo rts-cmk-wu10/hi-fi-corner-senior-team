@@ -1,17 +1,4 @@
 
-/* body{
-    background-color: #000;
-}
-
-button {
-    cursor: pointer;
-
-}
-
-p{
-    margin-right: 1rem;
-} */
-
 
 .singleProduct__container{
     margin: 5%;
@@ -140,6 +127,7 @@ p{
     display: flex;
     gap: 0.5rem;
     margin-right: 1rem ;
+    list-style: none;
 }
 
 .productName {
@@ -152,18 +140,18 @@ p{
 
 }
 
-.productPrize {
+.productPrice {
     display: flex;
     justify-content: space-between;
     margin: 0.5rem;
 }
 
-.currentPrize {
+.currentPrice {
     color: rgba(163, 145, 97, 1);
     font-size: x-large;
 }
 
-.previousPrize {
+.previousPrice {
     color: #444141;
     text-decoration: line-through;
     font-size: medium;
@@ -311,4 +299,3 @@ p{
     font-weight: 500;
 
 }
-
