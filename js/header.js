@@ -14,7 +14,6 @@ HEADER.innerHTML = `
 <a href="index.html">home</a>
 <a href="aboutUs.html">about us</a>
 <a href="branch.html">brands</a>
-<a href="#">blog</a>
 <a href="events.html">events</a>
 <a href="shopCategory.html">shop</a>
 <a href="contact.html">contact us</a>
