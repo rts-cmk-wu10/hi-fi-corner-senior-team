@@ -1,6 +1,5 @@
 const searchParams = new URLSearchParams(window.location.search);
 
-fetch(``);
 
 fetch(`http://localhost:3000/products?q=${searchParams.get("category")}`)
   .then(function (response) {
@@ -11,6 +10,7 @@ fetch(`http://localhost:3000/products?q=${searchParams.get("category")}`)
 
     // hvordan console.log jeg data uden for foreach hvor jeg laver hvert catch til et "item"-parameter
     //jeg tænker ikke det dur direkte på data da jeg søger category som er ens for dem alle på header h2 tagget og derfor SKAL det ind under foreach loopet
+
 
     const PREVIOUSFOCUS = document.querySelector(".categoryList__Ul");
 
@@ -33,6 +33,18 @@ fetch(`http://localhost:3000/products?q=${searchParams.get("category")}`)
         <p class="currentPrice">${item.currentPrice}</p>
         <p class="previousPrice">${item.previousPrice}</p>
         `;
+   
+        
+        if (item.availability) {
+          const SEEPRODUCT = document.createElement("button")
+        SEEPRODUCT.innerHTML = item.availability
+        LI.appendChild(SEEPRODUCT)  
+        }
+        
+        PREVIOUSFOCUS.appendChild(LI)
+
+
+        })
 
       if (item.availability) {
         const SEEPRODUCT = document.createElement("button");
