@@ -58,7 +58,6 @@ fetch(fetchURL)
 
       PREVIOUSFOCUS.appendChild(LI);
     });
-  });
 
     // ------------select / options--------------
 
