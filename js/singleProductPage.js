@@ -8,6 +8,7 @@ fetch(`http://localhost:3000/products/${URL.get("model")}`)
     const PRODUCT_IMAGE = document.querySelector(".productImage");
     const PRODUCT_INFO = document.querySelector(".container__productInfo");
     PRODUCT_INFO.innerHTML = "";
+    const ADDITIONAL_PRODUCT_INFO = document.querySelector(".productInfo__additional")
 
     PRODUCT_IMAGE.src = data.img;
     PRODUCT_INFO.innerHTML = `
@@ -27,8 +28,40 @@ fetch(`http://localhost:3000/products/${URL.get("model")}`)
 
     </div>
     `
+
+    ADDITIONAL_PRODUCT_INFO.innerHTML = 
+
+       ` <ul class="additional__ul">
+        <li class="addInfo__li">
+            <p>manufacturer</p>
+        </li>
+        <li class="addInfo__li"><span class="spanFetch">${data.brand}</span></li>
+        <li class="addInfo__li">
+            <p>model</p>
+        </li>
+        <li class="addInfo__li"><span class="spanFetch">${data.model}</span></li>
+        <li class="addInfo__li">
+            <p>free warranty</p>
+        </li>
+        <li class="addInfo__li"><span class="spanFetch">${data.warranty}</span></li>
+        <li class="addInfo__li">
+            <p>delivery charge</p>
+        </li>
+        <li class="addInfo__li"><span class="spanFetch">${data.delivery_charge}</span></li>
+        <li class="addInfo__li">
+            <p>delivery timme</p>
+        </li>
+        <li class="addInfo__li"><span class="spanFetch">${data.delivery_time}</span></li>
+        <li class="addInfo__li">
+            <p>card surcharges</p>
+        </li>
+        <li class="addInfo__li"><span class="spanFetch">${data.card_surcharges}</span></li>
+    </ul> `
+
+            
   })
 
   .catch(function (error) {
     console.error(error.message);
   })
+

@@ -271,10 +271,10 @@
 
 }
 
-.additional__ul span {
+.spanFetch {
     background-color: #fff;
     border: 3px solid rgb(222, 222, 222);
- 
+    height: 100%;
     width: 100%;
     grid-column: 2;
     text-transform: none;
