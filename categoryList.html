@@ -1,74 +1,98 @@
 <!DOCTYPE html>
 <html lang="da">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hi-Fi-Shop Category List</title>
-    <link rel="stylesheet" href="/style.css/files.css" />
-    <script
-      src="https://kit.fontawesome.com/07e7abd320.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body class="categoryList__body">
-    <header class="header__search"></header>
 
-    <main class="categoryList">
-      <header class="categoryList__header">
-        <h2 class="categoryList__h2"></h2>
-        <section class="categoryList__sortBy">
-          <select name="sortby" id="sortby">
-            <option value="price">Price</option>
-            <option value="brand">Brand</option>
-            <option value="availability">Availability</option>
-          </select>
-        </section>
-      </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hi-Fi-Shop Category List</title>
+  <link rel="stylesheet" href="/style.css/files.css">
+  <link rel="stylesheet" href="/style.css/files.css">
+  <script src="https://kit.fontawesome.com/07e7abd320.js" crossorigin="anonymous"></script>
+</head>
 
-      <nav class="categoryList__category" role="navigation">
-        <ul class="shopNavigation">
-          <li class="categoryNav__navItem">
-            <a href="#" data-point="amplifiers">Amplifiers</a>
-          </li>
-          <li class="categoryNav__navItem">
-            <a href="#" data-point="speakers">Speakers</a>
-          </li>
-          <li class="categoryNav__navItem">
-            <a href="#" data-point="turntables">Turntables</a>
-          </li>
-        </ul>
-      </nav>
+<body class="categoryList__body">
+  <header class="header__search"></header>
 
-      <nav class="categoryList__shopBy">
-        <h2>Search by brand</h2>
-        <ul class="shopNavigation">
-          <li class="categoryNav__navItem">
-            <a href="#" data-point="marantz">Marantz</a>
-          </li>
-          <li class="categoryNav__navItem">
-            <a href="#" data-point="creek">Creek</a>
-          </li>
-        </ul>
-      </nav>
-
-      <section class="categoryList__products">
-        <!-- //ayas fetch -->
-        <ul class="categoryList__Ul"></ul>		
-		<!-- Leas fetch -->
-		<ul id="product-grid" class="product__container hidden"></ul>
+  <main class="categoryList">
+    <header class="categoryList__header">
+      <h2 class="categoryList__h2"></h2>
+      <section class="categoryList__sortBy">
+        <select name="sortby" id="sortby">
+          <option value="price">Price</option>
+          <option value="brand">Brand</option>
+          <option value="availability">Availability</option>
+        </select>
       </section>
+    </header>
+
+    <nav class="categoryList__category sidebarNav" role="navigation">
+      <ul class="shopNavigation">
+        <li class="navItem">
+          <a href="#" data-category="Amplifier">Amplifiers</a>
+          <ul class="subCategory_ul shopNavigation">
+            <li><a href="" data-category="Pream Plifier">Preamplifiers</a></li>
+            <li><a href="" data-category="Integrated Amplifier">Integrated Amplifiers</a></li>
+            <li><a href="" data-category="Tube Amplifier">Tube Amplifiers</a></li>
+          </ul>
+        </li>
+        <li class="navItem"><a href="#" data-category="Speaker">Speakers</a></li>
+        <li class="navItem"> <a href="#" data-category="Streamer">Streamers</a></li>
+        <li class="navItem"> <a href="#" data-category="Cd_player">Cd Players</a></li>
+      </ul>
+    </nav>
+
+    <nav class="categoryList__shopBy sidebarNav" role="navigation">
+      <h2>manufaturer</h2>
+      <ul class="shopNavigation">
+        <li class="navItem">
+          <a href="#" data-brand="creek">Creek</a>
+        </li>
+        <li class="navItem">
+          <a href="#" data-brand="Epos">Epos</a>
+        </li>
+        <li class="navItem">
+          <a href="#" data-brand="Harbeth">Harbeth</a>
+        </li>
+        <li class="navItem">
+          <a href="#" data-brand="Manley">Manley</a>
+        </li>
+        <li class="navItem">
+          <a href="#" data-brand="Project">Project</a>
+        </li>
+        <li class="navItem">
+          <a href="#" data-brand="Jolida">Jolida</a>
+        </li>
+        <li class="navItem">
+          <a href="#" data-brand="Parasound">Parasound</a>
+        </li>
+      </ul>
+    </nav>
 
 
-      <aside class="categoryList__sidebar">
-        <h3 class="categoryList__h3">manufacturer</h3>
-      </aside>
-    </main>
+
+    <section class="categoryList__products">
+      <section class="productList_container" id="productList">
+      <ul class="productResults">
+        </ul>
+      </section>
+      <!-- //ayas fetch -->
+      <ul class="categoryList__Ul"></ul>
+      <!-- Leas fetch -->
+      <ul id="product-grid" class="product__container hidden"></ul>
+    </section>
+
+
+    <aside class="categoryList__sidebar">
+      <h3 class="categoryList__h3">manufacturer</h3>
+    </aside>
+  </main>
 
 
 
-    <!-- <script src="/js/shop-category-nav.js" defer></script> -->
-    <script src="js/header__search.js" defer></script>
-    <script src="js/categoryListFromShop.js"></script>
-    <script src="js/shopCategory.js"></script>
-  </body>
+
+  <script src="js/header__search.js" defer></script>
+  <script src="js/categoryListFromShop.js"></script>
+  <script src="js/categoryList.js" defer></script>
+</body>
+
 </html>
