@@ -117,15 +117,17 @@
     align-items: center;
 }
 
-/* .socials__box {
-    position: absolute;
-} */
+.socials__item1 a,
+.socials__item2 a,
+.socials__item3 a {
+    color: white;
+}
 
-.socials__facebook {
+.socials__icons {
     font-size: 10em;
 }
 
-.socials__twitter {
+/* .socials__twitter {
     width: 10em;
 
     filter: brightness(0) invert(1) ;
@@ -136,7 +138,7 @@
 
     filter: invert(1);
 
-}
+} */
 
 /* --------------------options bottom----------------- */
 
