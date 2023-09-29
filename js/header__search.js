@@ -63,7 +63,7 @@ function searchProducts(query) {
 }
 
 const FORM = document.querySelector(".search_form--input");
-const productGrid = document.getElementById("product-grid"); // Updated product grid container
+const productGrid = document.querySelector(".categoryList__Ul"); // Updated product grid container
 const PARAMS = new URLSearchParams(window.location.search);
 const SEARCH = PARAMS.get("search");
 const API_URL = new URL("http://localhost:3000/products");

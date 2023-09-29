@@ -1,7 +1,7 @@
-const URL = new URLSearchParams(window.location.search);
+const searchURL = new URLSearchParams(window.location.search);
 
 let selectedCategory = null;
-let selectedBrand = URL.get("brand");
+let selectedBrand = searchURL.get("brand");
   
 
 // click events
