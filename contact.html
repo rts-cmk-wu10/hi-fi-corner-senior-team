@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <link rel="stylesheet" href="style.css/files.css">
+    <script src="https://kit.fontawesome.com/d6034130c1.js" crossorigin="anonymous"></script>
 </head>
 <body class="Contact__us__body">
 
@@ -21,9 +22,9 @@
               <div class="flex__container__contact">
                 <article class="left__contact__container">            
                     <h2>Edinburgh</h2> 
-                    <p> 0131 556 7901     sales@hificorner.co.uk </p>
-                    <p>2 Joppa Rd, Edinburgh, EH15 2EU</p>
-                    <p>Mon - Sat: 10am -5:30pm. Sun closed.</p>
+                    <p class="bold__text__contact"><i class="fa-solid fa-phone" style="color: #000000;"></i> 0131 556 7901  &nbsp;&nbsp;&nbsp;&nbsp; <i class="fa-regular fa-envelope"></i><a href="mailto:falkirk@hificorner.co.uk">sales@hificorner.co.uk</a></p>
+                    <p><i class="fa-solid fa-location-dot"></i> 2 Joppa Rd, Edinburgh, EH15 2EU</p>
+                    <p><i class="fa-regular fa-clock"></i> Mon - Sat: 10am - 5:30pm. Sun closed.</p>
                 </article>
                 <article class="right__contact__container">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2233.9847011989373!2d-3.1029242876513!3d55.949637076701215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887b9a456988e37%3A0x9ab320c7a137c00!2s2%20Joppa%20Rd.%2C%20Edinburgh%20EH15%202EU%2C%20Storbritannien!5e0!3m2!1sda!2sdk!4v1695295849284!5m2!1sda!2sdk"
@@ -35,9 +36,9 @@
               <div class="flex__container__contact">
                 <article class="left__contact__container">          
                     <h2>Falkirk</h2>
-                    <p>01324 629 011     falkirk@hificorner.co.uk</p>
-                    <p>44 Cow Wynd, Falkirk Central Region, FK1 1PU</p>
-                    <p>Mon - Sat: 10am -5:30pm. Sat appointment only. Sun closed.</p>
+                    <p class="bold__text__contact"><i class="fa-solid fa-phone" style="color: #000000;"></i> 01324 629 011  &nbsp;&nbsp;&nbsp;&nbsp;   <i class="fa-regular fa-envelope"></i><a href="mailto:falkirk@hificorner.co.uk">falkirk@hificorner.co.uk</a></p>
+                    <p><i class="fa-solid fa-location-dot"></i> 44 Cow Wynd, Falkirk Central Region, FK1 1PU</p>
+                    <p><i class="fa-regular fa-clock"></i> Mon - Sat: 10am - 5:30pm. Sat appointment only. Sun closed.</p>
                 </article>
                 <article class="right__contact__container">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2231.2172149927856!2d-3.78556938764847!3d55.99759007299846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48887a24df9c1377%3A0xd0bf6627c034e3ac!2s44%20Cow%20Wynd%2C%20Falkirk%20FK1%201PU%2C%20Storbritannien!5e0!3m2!1sda!2sdk!4v1695295921678!5m2!1sda!2sdk"
@@ -51,7 +52,7 @@
             <h2 class="Message__us__heading">Or message us here</h2>
             <p>Send a message using the contact form below and we’ll get back to you as soon as we can.</p>
 
-            <div class="contact__form">
+            <div class="contact__form" id="contact__form">
                 <form action="#" method="post">
                     <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
                     <input type="text" id="surName" name="surName" placeholder="Surname" required>
