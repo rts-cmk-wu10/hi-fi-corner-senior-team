@@ -165,4 +165,99 @@
 }
 
 
-/* ----------search style.................  */
+/* Leas search and show in a grid */
+
+/* Updated CSS to arrange grid containers */
+.product__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+.productResults{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 10px;
+    row-gap: 20px;
+    grid-column: 2;
+   
+  }
+  .productList_container{
+      grid-column: 2;
+     
+  }
+  
+  .productLink{
+      text-decoration: none;
+     
+  }
+  .productList_text{
+      margin:0%
+     
+  }
+  .price{
+      display: flex;
+      justify-content: center;
+      padding: 5%;
+      padding-bottom: 0%;
+      margin: 0%;
+      align-items: center;
+   }
+  
+  .categoryList__container{
+      display: grid;
+      grid-column: 1fr 3fr 1fr;
+      grid-row: 1;
+   
+  }
+  
+  .categoryList__category{
+      grid-column: 1;
+  }
+  .listImg{
+      height: 100px;
+      width: 100px;
+  }
+  
+  .categoryList__shopBy{
+      grid-column: 1;
+  }
+  .actionButton {
+      background-color: rgba(163, 145, 97, 1);
+      color: white;
+      padding: 0.5rem;
+      text-transform: uppercase;
+      font-weight: 600;
+      border: none;
+      margin: 2rem;
+      margin-top: 0%;
+      cursor: pointer;
+  }
+  
+  .currentPrice {
+      color: rgba(163, 145, 97, 1);
+      font-size: 20px;
+  }
+  
+  .previousPrice {
+      color: #444141;
+      text-decoration: line-through;
+      font-size: 13px;
+      padding: 5%;
+  }
+
+  .navItem a {
+    color: rgba(163, 145, 97, 1);
+    font-size: 15px;
+    text-decoration: none;
+}
+.shopNavigation{
+    list-style: none;
+}
+
+.productDiv {
+    text-align: center;
+}
+  
+

@@ -1,3 +1,4 @@
+
 const urlSearchParams = new URLSearchParams(window.location.search)
 const fetchURL = new URL('http://localhost:3000/products')
 fetchURL.searchParams.set('_sort', urlSearchParams.get("sort" ?? "currentPrice"))
@@ -11,22 +12,20 @@ fetch(fetchURL)
     .then(function (data) {
         // console.log(data)
 
-        // hvordan console.log jeg data uden for foreach hvor jeg laver hvert catch til et "item"-parameter
-        //jeg tænker ikke det dur direkte på data da jeg søger category som er ens for dem alle på header h2 tagget og derfor SKAL det ind under foreach loopet
-
-        const PREVIOUSFOCUS = document.querySelector(".categoryList__Ul")
-    
-
-        data.forEach(function (item) {
-            const headerFocus = document.querySelector(".categoryList__h2")
-            headerFocus.textContent = item.category
+    // hvordan console.log jeg data uden for foreach hvor jeg laver hvert catch til et "item"-parameter
+    //jeg tænker ikke det dur direkte på data da jeg søger category som er ens for dem alle på header h2 tagget og derfor SKAL det ind under foreach loopet
 
 
-        
-        //li i ul
-        const LI = document.createElement("li");
-        LI.className = "li__box"
-        LI.innerHTML =`
+    const PREVIOUSFOCUS = document.querySelector(".categoryList__Ul");
+
+    data.forEach(function (item) {
+      const headerFocus = document.querySelector(".categoryList__h2");
+      headerFocus.textContent = item.category;
+
+      //li i ul
+      const LI = document.createElement("li");
+      LI.className = "li__box";
+      LI.innerHTML = `
         <a href="/singleProduct.html?model=${item.id}" class"productList__link">
         <section class="div__img"> 
         <figure class="figure__img">
@@ -37,7 +36,7 @@ fetch(fetchURL)
         <h4 >${item.category} ${item.model}</h4>
         <p class="currentPrice">${item.currentPrice}</p>
         <p class="previousPrice">${item.previousPrice}</p>
-        `
+        `;
    
         
         if (item.availability) {
@@ -51,9 +50,15 @@ fetch(fetchURL)
 
         })
 
+      if (item.availability) {
+        const SEEPRODUCT = document.createElement("button");
+        SEEPRODUCT.innerHTML = item.availability;
+        LI.appendChild(SEEPRODUCT);
+      }
 
-    })
-
+      PREVIOUSFOCUS.appendChild(LI);
+    });
+  });
 
     // ------------select / options--------------
 
@@ -71,20 +76,4 @@ function optionChange() {
 
     window.location.href = currentURL
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
