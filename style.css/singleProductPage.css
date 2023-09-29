@@ -1,11 +1,15 @@
 
 
+
 .singleProduct__container{
     margin: 5%;
     background-color: #fff;
     padding-bottom: 5%;
 }
+button {
+    cursor: pointer;
 
+}
 
 .saleBanner {
     height: 20vh;
@@ -299,3 +303,5 @@
     font-weight: 500;
 
 }
+
+
