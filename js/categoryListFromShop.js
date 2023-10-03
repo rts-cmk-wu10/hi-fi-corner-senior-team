@@ -24,24 +24,24 @@ fetch(fetchURL)
 
       //li i ul
       const LI = document.createElement("li");
-      LI.className = "li__box";
+      LI.className = "product__box";
       LI.innerHTML = `
-        <a href="/singleProduct.html?model=${item.id}" class"productList__link">
-        <section class="div__img"> 
-        <figure class="figure__img">
-        <img src="${item.img}" alt="product photo" class="productList__img">
+        <a href="/singleProduct.html?model=${item.id}">
+        <figure class="product__figure">
+        <img src="${item.img}" alt="product photo" class="product__img">
         </figure>
-        </section>
         </a>
-        <h4 >${item.category} ${item.model}</h4>
-        <p class="currentPrice">${item.currentPrice}</p>
-        <p class="previousPrice">${item.previousPrice}</p>
+
+        <h4>${item.category} ${item.model}</h4>
+        <p class="product__currentPrice">${item.currentPrice}</p>
+        <p class="product__previousPrice">${item.previousPrice}</p>
         `;
    
         
         if (item.availability) {
           const SEEPRODUCT = document.createElement("button")
         SEEPRODUCT.innerHTML = item.availability
+        SEEPRODUCT.className = "product__button"
         LI.appendChild(SEEPRODUCT)  
         }
         

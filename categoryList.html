@@ -11,7 +11,7 @@
 </head>
 
 <body class="categoryList__body">
-		
+
   <header class="header__search"></header>
 
   <main class="categoryList">
@@ -19,32 +19,33 @@
       <h2 class="categoryList__h2"></h2>
       <section class="categoryList__sortBy">
         <select name="sortby" id="sortby" class="sortBy__options">
-				<option value="price">Sort by</option>
-				<option value="price">Price</option>
-				<option value="category">Brand</option>
-				<option value="availability">Availability</option>
-			</select>
+          <option value="price">Sort by</option>
+          <option value="price">Price</option>
+          <option value="category">Brand</option>
+          <option value="availability">Availability</option>
+        </select>
       </section>
     </header>
 
-    <nav class="categoryList__category sidebarNav" role="navigation">
-      <ul class="shopNavigation">
-        <li class="navItem">
-          <a href="#" data-category="Amplifier">Amplifiers</a>
-          <ul class="subCategory_ul shopNavigation">
-            <li><a href="" data-category="Pream Plifier">Preamplifiers</a></li>
-            <li><a href="" data-category="Integrated Amplifier">Integrated Amplifiers</a></li>
-            <li><a href="" data-category="Tube Amplifier">Tube Amplifiers</a></li>
-          </ul>
-        </li>
-        <li class="navItem"><a href="#" data-category="Speaker">Speakers</a></li>
-        <li class="navItem"> <a href="#" data-category="Streamer">Streamers</a></li>
-        <li class="navItem"> <a href="#" data-category="Cd_player">Cd Players</a></li>
-      </ul>
-    </nav>
+    <nav class="categoryList__category">
+      <section>
+        <ul class="shopNavigation">
+          <li class="navItem">
+            <a href="#" data-category="Amplifier">Amplifiers</a>
+            <ul class="subCategory_ul shopNavigation">
+              <li><a href="" data-category="Pream Plifier">Preamplifiers</a></li>
+              <li><a href="" data-category="Integrated Amplifier">Integrated Amplifiers</a></li>
+              <li><a href="" data-category="Tube Amplifier">Tube Amplifiers</a></li>
+            </ul>
+          </li>
+          <li class="navItem"><a href="#" data-category="Speaker">Speakers</a></li>
+          <li class="navItem"> <a href="#" data-category="Streamer">Streamers</a></li>
+          <li class="navItem"> <a href="#" data-category="Cd_player">Cd Players</a></li>
+        </ul>
+      </section>
 
-    <nav class="categoryList__shopBy sidebarNav" role="navigation">
-      <h2>manufaturer</h2>
+      <section>
+        <h2>manufaturer</h2>
       <ul class="shopNavigation">
         <li class="navItem">
           <a href="#" data-brand="creek">Creek</a>
@@ -68,13 +69,13 @@
           <a href="#" data-brand="Parasound">Parasound</a>
         </li>
       </ul>
+      </section>
+
     </nav>
-
-
 
     <section class="categoryList__products">
       <section class="productList_container" id="productList">
-      <ul class="productResults">
+        <ul class="productResults">
         </ul>
       </section>
       <!-- //ayas fetch -->

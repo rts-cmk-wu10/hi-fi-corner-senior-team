@@ -13,7 +13,7 @@
     grid-template-areas:
         'category sortby sidebar'
         'category content sidebar'
-        'shopby content sidebar'
+        'category content sidebar'
     ;
 
     grid-template-columns: 1fr 4fr 1fr;
@@ -49,13 +49,13 @@
     padding: 10px;
 }
 
-.categoryList__shopBy {
+/* .categoryList__shopBy {
     grid-area: shopby;
 
     background: lightgray;
     margin: 2% 2% 2% 2%;
     padding: 10px;
-}
+} */
 
 .categoryList__products {
     grid-area: content;
@@ -89,24 +89,6 @@
 }
 
 
-
-.shop__categoryContainer {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-}
-
-
-
-.selectBar {
-    width: 100%;
-    height: 5vh;
-    background-color: rgb(222, 220, 220);
-    padding: 2rem;
-    text-transform: uppercase;
-    grid-column: 2;
-    grid-row: 1;
-}
-
 /* ----------------categoryListFromShop.js--------------  */
 
 .categoryList__Ul {
@@ -117,57 +99,64 @@
     padding: 0 0 0 2%;
 }
 
-.li__box {
-
+.product__box {
     list-style: none;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     
     /* width: 22%; */
     width: 190px;
     margin-bottom: 2%;
 }
 
-.currentPrice {
-    color: rgba(139, 109, 50, 0.848);
-    font-weight: 500;
-}
-
-.previousPrice {
-    font-size: 14px;
-    text-decoration: line-through;
-    color: darkgray;
-}
-
-.div__img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    height: 200px;
-}
-
-.figure__img {
+.product__figure {
     display: flex;
     align-items: center;
     justify-content: center;
     /* width: 100%; */
-    height: 100%;
+    height: 200px;
     padding: 10% 0;
 
     border: lightgray 1px solid;
 }
 
-.productList__img {
+.product__img {
     width: 190px;
-    /* height: 110%; */
 }
 
 
-/* Leas search and show in a grid */
+.product__currentPrice {
+    color: darkgray;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.product__previousPrice {
+    font-size: 14px;
+    text-decoration: line-through;
+    color: lightgray;
+}
+
+
+.product__button {
+    padding: 5px 10px;
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-weight: bold;
+    background-color: rgba(139, 109, 50, 0.848);
+    border: none;
+}
+
+.product__img[src="/img_db/hojtalere/harbeth_monitor30.jpg"] {
+    height: 150px;
+}
+
 
 /* Updated CSS to arrange grid containers */
+/* -----dette skal sættes på UL + LI'er ovenfor istedet---  */
 .product__container {
     display: flex;
     flex-wrap: wrap;
