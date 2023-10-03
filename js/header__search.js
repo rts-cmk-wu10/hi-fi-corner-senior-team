@@ -110,21 +110,27 @@ const productContainer = document.querySelector(".product__container");
 function createItemLi(item) {
   // Create a li element for the product
   const LI = document.createElement("li");
-  LI.className = "li__box"
+  LI.className = "product__box"
 
   LI.innerHTML = `
 
         <a href="/singleProduct.html?model=${item.id}" class"productList__link">
-        <section class="div__img">
-        <figure class="figure__img">
-        <img src="${item.img}" alt="product photo" class="productList__img">
+        <figure class="product__figure">
+        <img src="${item.img}" alt="product photo" class="product__img">
         </figure>
-        </section>
         </a>
+
         <h3>${item.category} ${item.model}</h3>
-        <p class="currentPrice">${item.currentPrice}</p>
-        <p class="previousPrice">${item.previousPrice}</p>
+        <p class="product__currentPrice">${item.currentPrice}</p>
+        <p class="product__previousPrice">${item.previousPrice}</p>
         `;
+
+        if (item.availability) {
+          const SEEPRODUCT = document.createElement("button")
+        SEEPRODUCT.innerHTML = item.availability
+        SEEPRODUCT.className = "product__button"
+        LI.appendChild(SEEPRODUCT)  
+        }
 
   return LI;
 }
